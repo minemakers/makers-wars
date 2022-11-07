@@ -1,0 +1,91 @@
+{
+  "criteria": {
+    "black": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"black\"]}"
+        }
+      }
+    },
+    "blue": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"blue\"]}"
+        }
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"gray\"]}"
+        }
+      }
+    },
+    "green": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"green\"]}"
+        }
+      }
+    },
+    "orange": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"orange\"]}"
+        }
+      }
+    },
+    "red": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"red\"]}"
+        }
+      }
+    },
+    "white": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"white\"]}"
+        }
+      }
+    },
+    "yellow": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"yellow\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "black",
+      "blue",
+      "gray",
+      "green",
+      "orange",
+      "red",
+      "white",
+      "yellow"
+    ]
+  ],
+  "rewards": {
+    "function": "game:events/proxy/join_team"
+  }
+}

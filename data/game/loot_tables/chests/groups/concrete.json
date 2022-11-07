@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_concrete"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_concrete"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cyan_concrete"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_concrete"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lime_concrete"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_concrete"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_concrete"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_concrete"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_concrete"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_concrete"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_concrete"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purple_concrete"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_concrete"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magenta_concrete"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_concrete"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_gray_concrete"
+        }
+      ]
+    }
+  ]
+}

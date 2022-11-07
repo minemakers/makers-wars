@@ -1,0 +1,172 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/arena/plains",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$arena"
+                },
+                "score": "var"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/arena/ruins",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$arena"
+                },
+                "score": "var"
+              },
+              "range": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/arena/desert",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$arena"
+                },
+                "score": "var"
+              },
+              "range": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/arena/inferno",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$arena"
+                },
+                "score": "var"
+              },
+              "range": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/arena/end",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$arena"
+                },
+                "score": "var"
+              },
+              "range": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/arena/canyon",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$arena"
+                },
+                "score": "var"
+              },
+              "range": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/arena/winter",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$arena"
+                },
+                "score": "var"
+              },
+              "range": 7
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/arena/outpost",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$arena"
+                },
+                "score": "var"
+              },
+              "range": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/arena/village",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$arena"
+                },
+                "score": "var"
+              },
+              "range": 9
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

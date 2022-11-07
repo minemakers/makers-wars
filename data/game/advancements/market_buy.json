@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "_": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"stall\"]}",
+          "distance": {
+            "absolute": {
+              "max": 4
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "game:events/proxy/market_buy"
+  }
+}

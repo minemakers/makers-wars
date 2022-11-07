@@ -1,0 +1,177 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "game:chests/middle/classic",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "$chests"
+                    },
+                    "score": "var"
+                  },
+                  "range": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "game:chests/middle/high",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "$chests"
+                    },
+                    "score": "var"
+                  },
+                  "range": 2
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "game:chests/middle/extreme",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "$chests"
+                    },
+                    "score": "var"
+                  },
+                  "range": 3
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "game:chests/middle/hardcore",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "$chests"
+                    },
+                    "score": "var"
+                  },
+                  "range": 4
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "game:chests/middle/build",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "$chests"
+                    },
+                    "score": "var"
+                  },
+                  "range": 5
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "game:chests/middle/redstone",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "$chests"
+                    },
+                    "score": "var"
+                  },
+                  "range": 6
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "game:chests/middle/combat",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "$chests"
+                    },
+                    "score": "var"
+                  },
+                  "range": 7
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "game:chests/middle/survivor",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "$chests"
+                    },
+                    "score": "var"
+                  },
+                  "range": 8
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "game:chests/middle/random",
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "$chests"
+                    },
+                    "score": "var"
+                  },
+                  "range": 9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

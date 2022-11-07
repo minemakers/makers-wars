@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_planks"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spruce_planks"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:birch_planks"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_planks"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:acacia_planks"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dark_oak_planks"
+        }
+      ]
+    }
+  ]
+}

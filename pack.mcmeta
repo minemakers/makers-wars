@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "pack_format": 10,
+    "description": "Makers Wars II - by MineMakers Team"
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "advancements/.*"
+      }
+    ]
+  }
+}

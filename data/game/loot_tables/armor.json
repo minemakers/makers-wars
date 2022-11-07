@@ -1,0 +1,147 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{display:{color:0}}",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "black"
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{display:{color:5006011}}",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "blue"
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{display:{color:10855845}}",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "gray"
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{display:{color:6717235}}",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "green"
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{display:{color:14188339}}",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "orange"
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{display:{color:10040115}}",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "red"
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{display:{color:16777215}}",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "white"
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{display:{color:15066419}}",
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "yellow"
+          }
+        }
+      ]
+    }
+  ]
+}

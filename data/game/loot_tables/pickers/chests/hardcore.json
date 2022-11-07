@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner:{Id:[I;1053112137,1265584885,-1693377596,-1354979193],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmNiZmY3MjFhNDQ4ZjY5YTdmODAyYjZlYThiZDg0NTRhNWI4NDg4MmFkNGE0ZTQ4MGI0NTQ0YzE4OTY0ZSJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "nbt": "chests.hardcore.name",
+                "storage": "game:lang",
+                "color": "#79511C",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "nbt": "chests.hardcore.help",
+                    "storage": "game:lang",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": ""
+                  }
+                ],
+                [
+                  {
+                    "text": "▶ ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "nbt": "chests.help",
+                    "storage": "game:lang"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

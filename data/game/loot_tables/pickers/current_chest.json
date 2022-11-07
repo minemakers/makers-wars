@@ -1,0 +1,172 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/chests/classic",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$chests"
+                },
+                "score": "var"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/chests/high",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$chests"
+                },
+                "score": "var"
+              },
+              "range": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/chests/extreme",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$chests"
+                },
+                "score": "var"
+              },
+              "range": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/chests/hardcore",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$chests"
+                },
+                "score": "var"
+              },
+              "range": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/chests/build",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$chests"
+                },
+                "score": "var"
+              },
+              "range": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/chests/redstone",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$chests"
+                },
+                "score": "var"
+              },
+              "range": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/chests/combat",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$chests"
+                },
+                "score": "var"
+              },
+              "range": 7
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/chests/survivor",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$chests"
+                },
+                "score": "var"
+              },
+              "range": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "game:pickers/chests/random",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$chests"
+                },
+                "score": "var"
+              },
+              "range": 9
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
