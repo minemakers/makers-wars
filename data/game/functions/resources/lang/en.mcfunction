@@ -25,6 +25,7 @@ data modify storage game:lang dialog.balance.actions.1 set value {"name": "Yes",
 data modify storage game:lang dialog.balance.actions.2 set value {"name": "No", "hover": "Click to continue without balancing"}
 
 data modify storage game:lang click_me set value "Right click me"
+data modify storage game:lang click_open set value "Click to open"
 data modify storage game:lang click_here set value "Right click here"
 data modify storage game:lang game_launcher set value "Start the game"
 data modify storage game:lang lang_picker set value "Change language"
