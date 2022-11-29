@@ -96,6 +96,8 @@ gamerule showDeathMessages true
 gamerule spawnRadius 0
 gamerule spectatorsGenerateChunks false
 
+data modify block 0 -1 0 auto set value 0
+
 setblock 0 1 0 minecraft:oak_sign
 setblock 0 0 0 minecraft:white_shulker_box
 setblock 0 -1 0 minecraft:command_block[facing=down]{auto:0b}
