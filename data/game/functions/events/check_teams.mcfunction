@@ -12,4 +12,4 @@ execute if score #count var matches ..1 as @a[gamemode=!spectator] unless score 
 execute if score #count var matches ..1 run scoreboard players enable @a[gamemode=!spectator] confirm
 execute if score #count var matches 2.. run scoreboard players reset * confirm
 
-execute if score $status var matches 2 run schedule function #game:events/check_teams 5s
+execute if score $status var matches 1.. run schedule function #game:events/check_teams 5s

@@ -21,3 +21,5 @@ scoreboard players operation $yellow points = @a[team=yellow,limit=1] points
 execute if score $points var matches 0 as @a run function #game:events/player_ready
 execute if score $points var matches 1.. run function #game:resources/scenes/market
 execute if score $points var matches 1.. run tellraw @a [{"text":"\n","color":"green"},{"storage":"game:lang","nbt":"rules.market"}]
+
+schedule function #game:events/check_teams 1t
