@@ -8,6 +8,10 @@
       {
         "namespace": "minecraft",
         "path": "advancements/.*"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipes/ender_chest"
       }
     ]
   }
