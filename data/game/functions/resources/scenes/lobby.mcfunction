@@ -7,7 +7,7 @@ fill 1014 38 964 980 30 985 minecraft:barrier hollow
 
 summon minecraft:area_effect_cloud 997 32.75 982 {Duration:-1,WaitTime:-2147483648,CustomNameVisible:1b}
 summon minecraft:armor_stand 997 31 982 {Tags:["mode"],NoGravity:1b,Invulnerable:1b,ShowArms:1b,DisabledSlots:2097151,Rotation:[180.0f,0.0f],NoBasePlate:1b,CustomNameVisible:1b}
-summon minecraft:villager 997 31 982.2 {Tags:["ready_game"],NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:false}]}
+summon minecraft:villager 997 31 982.2 {Tags:["game_launcher"],NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:false}]}
 setblock 997 31 981 minecraft:dark_oak_wall_sign[facing=north]{Text4:'{"text":"","clickEvent":{"action":"run_command","value":"function #game:events/next_mode"}}'}
 execute positioned 997 31 981 run function game:resources/views/lobby/mode
 

@@ -5,7 +5,7 @@
       "conditions": {
         "entity": {
           "type": "minecraft:villager",
-          "nbt": "{Tags:[\"ready_game\"]}"
+          "nbt": "{Tags:[\"game_launcher\"]}"
         }
       }
     }
