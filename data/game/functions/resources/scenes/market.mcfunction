@@ -111,4 +111,4 @@ execute as @e[type=minecraft:armor_stand,tag=stall,tag=offset,tag=!bundle] at @s
 execute as @e[type=minecraft:armor_stand,tag=stall,tag=!offset,tag=!bundle] at @s positioned ~ 31.7 ~ run function game:resources/prefabs/market/count
 execute as @e[type=minecraft:armor_stand,tag=stall,tag=!offset,tag=!bundle] at @s positioned ~ 30.8 ~ run function game:resources/prefabs/market/price
 
-function game:managers/market/initialize
+function game:managers/market/setup
