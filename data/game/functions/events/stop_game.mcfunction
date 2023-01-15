@@ -22,9 +22,9 @@ schedule clear #game:events/countdown
 
 gamerule doTileDrops false
 execute positioned 997 96 1008 run function #game:events/clear_arena
-function #game:resources/scenes/islands
-function #game:resources/scenes/arena
 function #game:resources/scenes/lobby
+function #game:resources/scenes/arena
+function #game:resources/scenes/islands
 
 gamemode adventure @a
 execute as @a run function game:managers/players/spawn/lobby
