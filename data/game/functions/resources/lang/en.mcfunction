@@ -9,6 +9,8 @@ data modify storage game:lang countdown.2 set value ["Starts in ", " seconds..."
 data modify storage game:lang warning.peace set value "Peace time is over! You can now start fighting!"
 data modify storage game:lang warning.start.60 set value "The game will start in 60 seconds!"
 data modify storage game:lang warning.start.10 set value "10 seconds remaining..."
+data modify storage game:lang warning.chests_spawn.10 set value "Spawn Chests will fall in 10 seconds..."
+data modify storage game:lang warning.chests_middle.30 set value "Middle Chests will fall in 30 seconds..."
 
 data modify storage game:lang errors.ready.team set value "Some players have to choose a team!"
 data modify storage game:lang errors.ready.teams set value "You need at least two teams to start the game!"

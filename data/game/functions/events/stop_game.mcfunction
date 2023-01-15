@@ -13,6 +13,8 @@ scoreboard objectives setdisplay list
 bossbar set game:timer players
 bossbar set game:peace players
 
+schedule clear #game:events/chests_spawn
+schedule clear #game:events/chests_middle
 schedule clear #game:events/random_hazard
 schedule clear #game:events/apply_peace
 schedule clear #game:events/check_teams
