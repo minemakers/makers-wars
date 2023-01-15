@@ -1,5 +1,5 @@
 title @a times 0 50 10
-title @a title [{"text":"Makers Wars II","color":"gold"}]
+title @a title [{"text":"Makers Wars II","color":"#ec6d32"}]
 
 execute if score $countdown var matches 0 run title @a subtitle [{"storage":"game:lang","nbt":"countdown.0","color":"gray"}]
 execute if score $countdown var matches 0 as @a at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 100000 0.8
