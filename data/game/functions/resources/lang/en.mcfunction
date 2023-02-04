@@ -19,7 +19,7 @@ data modify storage game:lang errors.ready.players set value "You have to wait f
 data modify storage game:lang errors.market.cost set value "You don't have enough currency!"
 data modify storage game:lang errors.market.lives set value "You must play at least one game!"
 
-data modify storage game:lang dialog.stop set value {text: "It seems someone left and you are the only team standing. Do you want to end the game?"}
+data modify storage game:lang dialog.stop.text set value "It seems someone left and you are the only team standing. Do you want to end the game?"
 data modify storage game:lang dialog.stop.actions.1 set value {"name": "Yes", "hover": "Click to end the game"}
 
 data modify storage game:lang dialog.balance set value {text: "Some teams have less members than others. Would you like to balance the coins?"}
@@ -131,7 +131,7 @@ data modify storage game:lang market.reset set value ["Reset your", "inventory"]
 data modify storage game:lang market.doppelganger set value ["Special kit", "Doppelgänger"]
 
 data modify storage game:lang hazard set value "Random Event"
-data modify storage game:lang hazards.angry_minions set value "Pay attention, some mobs are rebelling against you!"
+data modify storage game:lang hazards.angry_minions set value "Pay attention, some minions are rebelling against you!"
 data modify storage game:lang hazards.bad_effects set value "Everyone received a bad effect!"
 data modify storage game:lang hazards.creeper_rain set value "Look up... Creeper Rain!"
 data modify storage game:lang hazards.cursed_area set value "An area has been cursed!"
@@ -145,5 +145,5 @@ data modify storage game:lang hazards.spawn_meteorites set value "The sky darken
 data modify storage game:lang hazards.spawn_wither set value "Wither!"
 data modify storage game:lang hazards.spread_players set value "Everyone has been spread on the arena!"
 data modify storage game:lang hazards.suicidal_minions set value "Pay attention, some mobs are becoming suicidal!"
-data modify storage game:lang hazards.super_powers set value "Everyone received super power!"
+data modify storage game:lang hazards.super_powers set value "Everyone received super powers!"
 data modify storage game:lang hazards.swap_players set value "Swap!"
