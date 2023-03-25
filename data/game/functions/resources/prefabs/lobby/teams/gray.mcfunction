@@ -1,4 +1,4 @@
-data modify block 0 1 0 Text1 set value '[{"storage":"game:lang","nbt":"team_picker.gray","color":"#777777","bold":true}]'
-summon minecraft:villager ~ ~ ~ {Tags:["team","gray"],NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:false}]}
+summon minecraft:text_display ~ ~2.025 ~ {Tags:["lang.gray_team"],text:'[{"storage":"game:lang","nbt":"team_picker.gray","color":"#777777","bold":true}]',billboard:"center"}
+summon minecraft:interaction ~ ~ ~ {Tags:["team","gray"],width:0.7,height:1.3}
 summon minecraft:armor_stand ~ ~ ~ {Small:1b,NoGravity:1b,Invulnerable:1b,ShowArms:1b,NoBasePlate:1b,DisabledSlots:2097151,CustomNameVisible:1b,ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:10855845}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:10855845}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:10855845}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;1579154522,1233209792,-1173815997,670318417],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVlZjY3ODVlMGUzZjBhMWRjOGFmYWRhNzk4NjhmNTU5NTQ1NzI2ZjI5NTQ2YjFjYTlhNjM2M2FjNWZhZjMifX19"}]}}}}]}
 function game:resources/prefabs/lobby/teams/abstract

@@ -1,4 +1,4 @@
 summon minecraft:marker ~ ~ ~ {Tags:["arena"]}
-summon minecraft:area_effect_cloud ~ ~.9 ~ {Tags:["arena"],Duration:-1,WaitTime:-2147483648,CustomNameVisible:1b}
-summon minecraft:armor_stand ~ ~.45 ~ {Tags:["arena","item"],Rotation:[180f,0f],Invulnerable:1b,Invisible:1b,NoBasePlate:1b,NoGravity:1b,Small:1b,Marker:1b}
+summon minecraft:text_display ~ ~1.7 ~ {Tags:["arena"],billboard:"center"}
+summon minecraft:item_display ~ ~1.6 ~ {Tags:["arena","rotate"],Rotation:[180f,0f],transformation:{scale:[1f,1f,1f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f]}}
 execute as @e[type=minecraft:marker,tag=arena] at @s run function game:resources/views/lobby/arena

@@ -1,3 +1,5 @@
+data remove storage game:lang translator
+
 data modify storage game:lang greetings set value "Bienvenue sur"
 
 data modify storage game:lang countdown.0 set value "La partie vient de commencer !"
@@ -145,5 +147,3 @@ data modify storage game:lang hazards.spread_players set value "Tout le monde a 
 data modify storage game:lang hazards.suicidal_minions set value "Attention, certains monstres deviennent suicidaires !"
 data modify storage game:lang hazards.super_powers set value "Tout le monde a reçu des super pouvoirs !"
 data modify storage game:lang hazards.swap_players set value "Échange de joueurs !"
-
-data modify storage game:lang translator set value "Aksiome"

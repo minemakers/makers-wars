@@ -6,4 +6,4 @@ execute if score $peace var matches 1200 run scoreboard players set $peace var 6
 execute if score $peace var matches 2400 run scoreboard players set $peace var 1200
 execute if score $peace var matches 6000 run scoreboard players set $peace var 2400
 
-execute at @s run function game:resources/views/lobby/peace
+function game:resources/views/lobby/peace

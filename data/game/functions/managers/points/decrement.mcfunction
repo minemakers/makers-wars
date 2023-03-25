@@ -5,4 +5,4 @@ execute if score $points var matches 250..1000 run scoreboard players remove $po
 execute if score $points var matches 1500..5000 run scoreboard players remove $points var 500
 execute if score $points var matches 6000.. run scoreboard players remove $points var 1000
 
-execute at @s run function game:resources/views/lobby/points
+function game:resources/views/lobby/points

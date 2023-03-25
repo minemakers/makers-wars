@@ -7,7 +7,7 @@
           "type_specific": {
             "type": "player",
             "looking_at": {
-              "type": "minecraft:villager",
+              "type": "minecraft:interaction",
               "nbt": "{Tags:[\"stall\"]}",
               "distance": {
                 "absolute": {

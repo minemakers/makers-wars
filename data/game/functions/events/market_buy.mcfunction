@@ -2,6 +2,7 @@ function game:managers/market/lookup
 
 data modify block 0 0 0 Items set value []
 execute as @e[type=minecraft:armor_stand,tag=stall] if score @s id = #target var run item replace block 0 0 0 container.0 from entity @s armor.head
+execute as @e[type=minecraft:item_display,tag=stall] if score @s id = #target var run item replace block 0 0 0 container.0 from entity @s container.0
 execute store result score #cost var run data get block 0 0 0 Items[0].tag.market.cost
 
 execute store result score #count var run data get block 0 0 0 Items[0].tag

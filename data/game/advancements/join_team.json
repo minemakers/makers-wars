@@ -4,7 +4,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:villager",
+          "type": "minecraft:interaction",
           "nbt": "{Tags:[\"black\"]}"
         }
       }
@@ -13,7 +13,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:villager",
+          "type": "minecraft:interaction",
           "nbt": "{Tags:[\"blue\"]}"
         }
       }
@@ -22,7 +22,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:villager",
+          "type": "minecraft:interaction",
           "nbt": "{Tags:[\"gray\"]}"
         }
       }
@@ -31,7 +31,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:villager",
+          "type": "minecraft:interaction",
           "nbt": "{Tags:[\"green\"]}"
         }
       }
@@ -40,7 +40,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:villager",
+          "type": "minecraft:interaction",
           "nbt": "{Tags:[\"orange\"]}"
         }
       }
@@ -49,7 +49,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:villager",
+          "type": "minecraft:interaction",
           "nbt": "{Tags:[\"red\"]}"
         }
       }
@@ -58,7 +58,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:villager",
+          "type": "minecraft:interaction",
           "nbt": "{Tags:[\"white\"]}"
         }
       }
@@ -67,7 +67,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:villager",
+          "type": "minecraft:interaction",
           "nbt": "{Tags:[\"yellow\"]}"
         }
       }

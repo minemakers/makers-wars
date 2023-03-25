@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "increment": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"points\",\"increment\"]}",
+          "distance": {
+            "absolute": {
+              "max": 4
+            }
+          }
+        }
+      }
+    },
+    "decrement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"points\",\"decrement\"]}",
+          "distance": {
+            "absolute": {
+              "max": 4
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "increment",
+      "decrement"
+    ]
+  ],
+  "rewards": {
+    "function": "game:events/proxy/change_points"
+  }
+}

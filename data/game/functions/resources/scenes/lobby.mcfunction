@@ -5,16 +5,14 @@ setblock 1007 32 979 minecraft:air
 fill 1014 38 964 980 30 985 minecraft:air replace #minecraft:wall_signs
 fill 1014 38 964 980 30 985 minecraft:barrier hollow
 
-summon minecraft:area_effect_cloud 997 32.75 982 {Duration:-1,WaitTime:-2147483648,CustomNameVisible:1b}
-summon minecraft:armor_stand 997 31 982 {Tags:["mode"],NoGravity:1b,Invulnerable:1b,ShowArms:1b,DisabledSlots:2097151,Rotation:[180.0f,0.0f],NoBasePlate:1b,CustomNameVisible:1b}
-summon minecraft:villager 997 31 982.2 {Tags:["game_launcher"],NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:false}]}
+summon minecraft:text_display 997 33.525 982 {Tags:["mode","lang.game_launcher"],billboard:"center"}
+summon minecraft:armor_stand 997 31 982 {Tags:["mode","lang.click_me"],NoGravity:1b,Invulnerable:1b,ShowArms:1b,DisabledSlots:2097151,Rotation:[180.0f,0.0f],NoBasePlate:1b,CustomNameVisible:1b}
+summon minecraft:interaction 997 30.5 982 {Tags:["game_launcher"],width:1,height:2}
 setblock 997 31 981 minecraft:dark_oak_wall_sign[facing=north]{Text4:'{"text":"","clickEvent":{"action":"run_command","value":"function #game:events/next_mode"}}'}
-execute positioned 997 31 981 run function game:resources/views/lobby/mode
 
-summon minecraft:area_effect_cloud 997 32.75 970 {Duration:-1,WaitTime:-2147483648,CustomNameVisible:1b}
-summon minecraft:armor_stand 997 31 970 {Tags:["lang"],HandItems:[{id:"minecraft:writable_book",Count:1b}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:6172683}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:0}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:7346200}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;-124860642,-668840957,-1240981003,1189629491],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY1NGZmMGUxNTMyYWU5MDQxZmIxNzA0NWM2NzUwMDJmNzE3YWFmYjY4MWFhZGZhNWZlNjM4MDY5ZTBmNTNkIn19fQ=="}]}}}}],NoGravity:1b,Invulnerable:1b,ShowArms:1b,DisabledSlots:2097151,NoBasePlate:1b,CustomNameVisible:1b}
-summon minecraft:villager 997 31 970 {Tags:["lang"],NoAI:1b,Silent:1b,Invulnerable:1b,ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:false}]}
-execute positioned 997 31 970 run function game:resources/views/lobby/language
+summon minecraft:text_display 997 33.525 970 {Tags:["lang.lang_picker"],billboard:"center"}
+summon minecraft:armor_stand 997 31 970 {Tags:["lang","lang.click_me"],HandItems:[{id:"minecraft:writable_book",Count:1b}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:6172683}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:0}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:7346200}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;-124860642,-668840957,-1240981003,1189629491],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY1NGZmMGUxNTMyYWU5MDQxZmIxNzA0NWM2NzUwMDJmNzE3YWFmYjY4MWFhZGZhNWZlNjM4MDY5ZTBmNTNkIn19fQ=="}]}}}}],NoGravity:1b,Invulnerable:1b,ShowArms:1b,DisabledSlots:2097151,NoBasePlate:1b,CustomNameVisible:1b}
+summon minecraft:interaction 997 31 970 {Tags:["lang"],width:1,height:2}
 
 execute positioned 995 31 982 run function game:resources/prefabs/lobby/arena
 execute positioned 999 31 982 run function game:resources/prefabs/lobby/chests
@@ -38,7 +36,6 @@ setblock 994 32 970 minecraft:player_head[rotation=8]{SkullOwner:{Id:[I;-3004687
 setblock 995 32 970 minecraft:player_head[rotation=8]{SkullOwner:{Id:[I;-688703268,1876445906,-1698945273,1920791208],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2M3NDVhMDZmNTM3YWVhODA1MDU1NTkxNDllYTE2YmQ0YTg0ZDQ0OTFmMTIyMjY4MThjMzg4MWMwOGU4NjBmYyJ9fX0="}]}}}
 setblock 999 32 970 minecraft:player_head[rotation=8]{SkullOwner:{Id:[I;1686538282,678514099,-1842505493,-1021940629],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJmNmMwN2EzMjZkZWY5ODRlNzJmNzcyZWQ2NDU0NDlmNWVjOTZjNmNhMjU2NDk5YjVkMmI4NGE4ZGNlIn19fQ=="}]}}}
 setblock 1000 32 970 minecraft:player_head[rotation=8]{SkullOwner:{Id:[I;1575406026,1578322712,-1912974436,1686260914],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZlMjdkYTEyODE5YThiMDUzZGEwY2MyYjYyZGVjNGNkYTkxZGU2ZWVlYzIxY2NmM2JmZTZkZDhkNDQzNmE3In19fQ=="}]}}}
-function game:resources/views/lobby/about
 
 fill 1000 31 967 1001 31 966 minecraft:red_terracotta
 fill 1006 31 967 1008 31 967 minecraft:light_gray_terracotta
@@ -108,3 +105,9 @@ summon minecraft:armor_stand 1010.894 32.619 969.294 {NoGravity:1b,Invulnerable:
 summon minecraft:armor_stand 1010.894 33.896 969.294 {NoGravity:1b,Invulnerable:1b,DisabledSlots:2097151,Pose:{Head:[3.0f,0.00f,0.0f]},Invisible:1b,Small:1b,Marker:1b,Rotation:[43.66162f,43.328896f],ArmorItems:[{},{},{},{id:"minecraft:wither_skeleton_skull",Count: 1b}]}
 summon minecraft:armor_stand 1011.345 33.896 969.725 {NoGravity:1b,Invulnerable:1b,DisabledSlots:2097151,Pose:{Head:[2.0f,10.0f,0.0f]},Invisible:1b,Small:1b,Marker:1b,Rotation:[43.66162f,43.328896f],ArmorItems:[{},{},{},{id:"minecraft:wither_skeleton_skull",Count: 1b}]}
 summon minecraft:armor_stand 1010.442 33.896 968.867 {NoGravity:1b,Invulnerable:1b,DisabledSlots:2097151,Pose:{Head:[2.0f,-8.0f,0.0f]},Invisible:1b,Small:1b,Marker:1b,Rotation:[43.66162f,43.328896f],ArmorItems:[{},{},{},{id:"minecraft:wither_skeleton_skull",Count: 1b}]}
+
+function game:resources/views/lobby
+schedule clear game:resources/views/lobby/sequences/rotate2
+schedule clear game:resources/views/lobby/sequences/rotate3
+schedule clear game:resources/views/lobby/sequences/rotate4
+schedule function game:resources/views/lobby/sequences/rotate1 1t

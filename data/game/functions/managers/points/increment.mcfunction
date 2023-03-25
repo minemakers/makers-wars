@@ -5,4 +5,4 @@ execute if score $points var matches 5000..9000 run scoreboard players add $poin
 execute if score $points var matches 1000..4500 run scoreboard players add $points var 500
 execute if score $points var matches ..750 run scoreboard players add $points var 250
 
-execute at @s run function game:resources/views/lobby/points
+function game:resources/views/lobby/points
