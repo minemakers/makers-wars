@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 3
       },
       "entries": [
         {
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "rolls": 2,
+      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
@@ -116,7 +116,7 @@
     },
     {
       "rolls": {
-        "min": 3,
+        "min": 4,
         "max": 5
       },
       "entries": [
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
@@ -179,12 +179,12 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:power": {
-                  "min": 3,
-                  "max": 5
+                  "min": 4,
+                  "max": 6
                 },
                 "minecraft:punch": {
-                  "min": 1,
-                  "max": 2
+                  "min": 2,
+                  "max": 3
                 },
                 "minecraft:infinity": 1,
                 "minecraft:flame": 1
@@ -205,8 +205,8 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:piercing": {
-                  "min": 3,
-                  "max": 5
+                  "min": 4,
+                  "max": 6
                 }
               }
             }
@@ -328,7 +328,7 @@
                   "max": 7
                 },
                 "minecraft:sweeping": {
-                  "min": 0,
+                  "min": 3,
                   "max": 10
                 }
               }

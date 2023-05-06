@@ -62,7 +62,7 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:power": {
-                  "min": 1,
+                  "min": 2,
                   "max": 3
                 },
                 "minecraft:flame": {
@@ -84,7 +84,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
-              "levels": 12
+              "levels": 18
             }
           ]
         },
@@ -96,16 +96,16 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:sharpness": {
-                  "min": 0,
-                  "max": 2
+                  "min": 1,
+                  "max": 3
                 },
                 "minecraft:fire_aspect": {
                   "min": 0,
                   "max": 1
                 },
                 "minecraft:knockback": {
-                  "min": 0,
-                  "max": 1
+                  "min": 1,
+                  "max": 2
                 }
               }
             }
@@ -119,8 +119,8 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:sharpness": {
-                  "min": 0,
-                  "max": 2
+                  "min": 1,
+                  "max": 3
                 },
                 "minecraft:fire_aspect": {
                   "min": 0,
@@ -137,29 +137,15 @@
             {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
-              "levels": 12
+              "levels": 18
             }
           ]
         }
       ]
     },
     {
-      "rolls": {
-        "min": 1,
-        "max": 2
-      },
+      "rolls": 1,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_helmet",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "treasure": true,
-              "levels": 12
-            }
-          ]
-        },
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_chestplate",
@@ -167,7 +153,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
-              "levels": 12
+              "levels": 18
             }
           ]
         },
@@ -178,7 +164,23 @@
             {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
-              "levels": 12
+              "levels": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+              "levels": 18
             }
           ]
         },
@@ -189,7 +191,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
-              "levels": 12
+              "levels": 18
             }
           ]
         }

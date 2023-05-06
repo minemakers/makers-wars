@@ -2,7 +2,10 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 2,
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -37,7 +40,7 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:power": {
-                  "min": 0,
+                  "min": 1,
                   "max": 2
                 }
               }
@@ -93,7 +96,7 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:sharpness": {
-                  "min": 0,
+                  "min": 1,
                   "max": 2
                 }
               }
@@ -108,7 +111,7 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:sharpness": {
-                  "min": 0,
+                  "min": 1,
                   "max": 2
                 }
               }
@@ -123,22 +126,46 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
-              "levels": 12
+              "levels": 22
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_leggings",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
-              "levels": 12
+              "levels": 22
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+              "levels": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+              "levels": 4
             }
           ]
         }
@@ -150,22 +177,46 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
-              "levels": 12
+              "levels": 22
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
-              "levels": 12
+              "levels": 22
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+              "levels": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+              "levels": 4
             }
           ]
         }

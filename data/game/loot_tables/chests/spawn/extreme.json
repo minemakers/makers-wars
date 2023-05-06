@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:loot_table",
@@ -11,7 +11,7 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
@@ -48,7 +48,7 @@
     },
     {
       "rolls": {
-        "min": 1,
+        "min": 2,
         "max": 3
       },
       "entries": [
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "rolls": 2,
+      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
@@ -110,8 +110,8 @@
     },
     {
       "rolls": {
-        "min": 2,
-        "max": 3
+        "min": 3,
+        "max": 4
       },
       "entries": [
         {
@@ -163,7 +163,7 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:power": {
-                  "min": 1,
+                  "min": 2,
                   "max": 3
                 },
                 "minecraft:punch": {
@@ -260,11 +260,11 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:sharpness": {
-                  "min": 1,
+                  "min": 2,
                   "max": 3
                 },
                 "minecraft:sweeping": {
-                  "min": 0,
+                  "min": 1,
                   "max": 2
                 }
               }
@@ -279,7 +279,7 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:sharpness": {
-                  "min": 1,
+                  "min": 2,
                   "max": 3
                 }
               }
