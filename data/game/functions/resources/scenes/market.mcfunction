@@ -26,8 +26,8 @@ execute positioned 1001 31 977 rotated 90 0 run function game:resources/prefabs/
 
 summon minecraft:item_display 996 31.4 972.7 {item:{id:"minecraft:quartz_slab",Count:1b},transformation:{scale:[0.65f,0.65f,0.65f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f]}}
 summon minecraft:item_display 998 31.4 972.7 {item:{id:"minecraft:quartz_slab",Count:1b},transformation:{scale:[0.65f,0.65f,0.65f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f]}}
-setblock 996 31 973 minecraft:dark_oak_wall_sign[facing=south]{Text2:'{"storage":"game:lang","nbt":"market.doppelganger[0]","color":"dark_purple","bold":true,"clickEvent":{"action":"run_command","value":"/function game:managers/market/doppelganger/buy"}}',Text3:'{"storage":"game:lang","nbt":"market.doppelganger[1]","color":"dark_purple","bold":true}'}
-setblock 998 31 973 minecraft:dark_oak_wall_sign[facing=south]{Text2:'{"storage":"game:lang","nbt":"market.reset[0]","color":"dark_red","bold":true,"clickEvent":{"action":"run_command","value":"/function #game:events/market_reset"}}',Text3:'{"storage":"game:lang","nbt":"market.reset[1]","color":"dark_red","bold":true}'}
+setblock 996 31 973 minecraft:dark_oak_wall_sign[facing=south]{front_text:{messages:['{"text":""}','{"storage":"game:lang","nbt":"market.doppelganger[0]","color":"dark_purple","bold":true,"clickEvent":{"action":"run_command","value":"/function game:managers/market/doppelganger/buy"}}','{"storage":"game:lang","nbt":"market.doppelganger[1]","color":"dark_purple","bold":true}','{"text":""}']}}
+setblock 998 31 973 minecraft:dark_oak_wall_sign[facing=south]{front_text:{messages:['{"text":""}','{"storage":"game:lang","nbt":"market.reset[0]","color":"dark_red","bold":true,"clickEvent":{"action":"run_command","value":"/function #game:events/market_reset"}}','{"storage":"game:lang","nbt":"market.reset[1]","color":"dark_red","bold":true}','{"text":""}']}}
 
 summon minecraft:item_display 990.3 32.2 968.7 {item:{id:"minecraft:stone",Count:6b,tag:{market:{cost:10,hint:'{"translate":"block.minecraft.stone"}'}}},Tags:["stall"],transformation:{scale:[0.5f,0.5f,0.5f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f]}}
 summon minecraft:item_display 990.9 32.2 968.7 {item:{id:"minecraft:grass_block",Count:6b,tag:{market:{cost:10,hint:'{"translate":"block.minecraft.grass_block"}'}}},Tags:["stall"],transformation:{scale:[0.5f,0.5f,0.5f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f]}}
@@ -103,7 +103,7 @@ summon minecraft:item_display 989.7 32.2 981.3 {item:{id:"minecraft:iron_sword",
 summon minecraft:item_display 989.7 32.2 981.9 {item:{id:"minecraft:diamond_sword",Count:1b,tag:{market:{cost:160,hint:'{"translate":"item.minecraft.diamond_sword"}'}}},Tags:["stall"],transformation:{scale:[0.5f,0.5f,0.5f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,.7f,0f,.7f],translation:[0f,0f,0f]}}
 summon minecraft:item_display 989.7 32.2 982.5 {item:{id:"minecraft:shield",Count:1b,tag:{market:{cost:50,hint:'{"translate":"item.minecraft.shield"}'}}},Tags:["stall"],transformation:{scale:[0.5f,0.4f,0.5f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,.7f,0f,.7f],translation:[.25f,.2f,-.25f]}}
 
-execute at @e[type=minecraft:item_display,tag=stall,tag=!bundle] run summon minecraft:interaction ~ ~-.25 ~ {Tags:["stall"],width:.5,height:.5}
+execute at @e[type=minecraft:item_display,tag=stall,tag=!bundle] run summon minecraft:interaction ~ ~-.25 ~ {Tags:["stall"],width:.5f,height:.5f}
 execute as @e[type=minecraft:item_display,tag=stall,tag=!bundle] at @s positioned ~ ~.3 ~ run function game:resources/prefabs/market/count
 execute as @e[type=minecraft:item_display,tag=stall,tag=!bundle] at @s positioned ~ ~-.6 ~ run function game:resources/prefabs/market/price
 

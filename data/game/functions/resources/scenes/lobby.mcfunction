@@ -8,7 +8,7 @@ fill 1014 38 964 980 30 985 minecraft:barrier hollow
 summon minecraft:text_display 997 33.525 982 {Tags:["mode","lang.game_launcher"],billboard:"center"}
 summon minecraft:armor_stand 997 31 982 {Tags:["mode","lang.click_me"],NoGravity:1b,Invulnerable:1b,ShowArms:1b,DisabledSlots:2097151,Rotation:[180.0f,0.0f],NoBasePlate:1b,CustomNameVisible:1b}
 summon minecraft:interaction 997 30.5 982 {Tags:["game_launcher"],width:1,height:2}
-setblock 997 31 981 minecraft:dark_oak_wall_sign[facing=north]{Text4:'{"text":"","clickEvent":{"action":"run_command","value":"function #game:events/next_mode"}}'}
+setblock 997 31 981 minecraft:dark_oak_wall_sign[facing=north]{front_text:{messages:['{"text":"","clickEvent":{"action":"run_command","value":"function #game:events/next_mode"}}','{"text":""}','{"text":""}','{"text":""}']}}
 
 summon minecraft:text_display 997 33.525 970 {Tags:["lang.lang_picker"],billboard:"center"}
 summon minecraft:armor_stand 997 31 970 {Tags:["lang","lang.click_me"],HandItems:[{id:"minecraft:writable_book",Count:1b}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:6172683}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:0}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:7346200}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;-124860642,-668840957,-1240981003,1189629491],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY1NGZmMGUxNTMyYWU5MDQxZmIxNzA0NWM2NzUwMDJmNzE3YWFmYjY4MWFhZGZhNWZlNjM4MDY5ZTBmNTNkIn19fQ=="}]}}}}],NoGravity:1b,Invulnerable:1b,ShowArms:1b,DisabledSlots:2097151,NoBasePlate:1b,CustomNameVisible:1b}
@@ -30,8 +30,8 @@ execute positioned 1004 31 979 facing 997 31 976 run function game:resources/pre
 
 fill 994 31 970 995 31 970 minecraft:quartz_slab[type=top]
 fill 999 31 970 1000 31 970 minecraft:quartz_slab[type=top]
-fill 994 31 971 995 31 971 minecraft:dark_oak_wall_sign[facing=south]{Text4:'{"text":"","clickEvent":{"action":"run_command","value":"execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~"}}'}
-fill 999 31 971 1000 31 971 minecraft:dark_oak_wall_sign[facing=south]{Text4:'{"text":"","clickEvent":{"action":"run_command","value":"execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~"}}'}
+fill 994 31 971 995 31 971 minecraft:dark_oak_wall_sign[facing=south]{front_text:{messages:['{"text":"","clickEvent":{"action":"run_command","value":"execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~"}}','{"text":""}','{"text":""}','{"text":""}']}}
+fill 999 31 971 1000 31 971 minecraft:dark_oak_wall_sign[facing=south]{front_text:{messages:['{"text":"","clickEvent":{"action":"run_command","value":"execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~"}}','{"text":""}','{"text":""}','{"text":""}']}}
 setblock 994 32 970 minecraft:player_head[rotation=8]{SkullOwner:{Id:[I;-30046877,-773897996,-1681922077,-995709918],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWNiYTcyNzdmYzg5NWJmM2I2NzM2OTQxNTk4NjRiODMzNTFhNGQxNDcxN2U0NzZlYmRhMWMzYmYzOGZjZjM3In19fQ=="}]}}}
 setblock 995 32 970 minecraft:player_head[rotation=8]{SkullOwner:{Id:[I;-688703268,1876445906,-1698945273,1920791208],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2M3NDVhMDZmNTM3YWVhODA1MDU1NTkxNDllYTE2YmQ0YTg0ZDQ0OTFmMTIyMjY4MThjMzg4MWMwOGU4NjBmYyJ9fX0="}]}}}
 setblock 999 32 970 minecraft:player_head[rotation=8]{SkullOwner:{Id:[I;1686538282,678514099,-1842505493,-1021940629],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJmNmMwN2EzMjZkZWY5ODRlNzJmNzcyZWQ2NDU0NDlmNWVjOTZjNmNhMjU2NDk5YjVkMmI4NGE4ZGNlIn19fQ=="}]}}}

@@ -23,7 +23,9 @@
               },
               "score": "var"
             },
-            "range": 2
+            "range": {
+              "min": 1
+            }
           }
         ]
       }

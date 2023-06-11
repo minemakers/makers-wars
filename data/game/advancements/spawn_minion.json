@@ -3,9 +3,14 @@
     "_": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "item": {
-          "tag": "game:spawn_egg"
-        }
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "game:spawn_egg"
+            }
+          }
+        ]
       }
     }
   },
