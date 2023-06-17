@@ -9,6 +9,4 @@ execute unless score $status var matches 0.. run scoreboard players set $status 
 execute unless score $points var matches 0.. run scoreboard players set $points var 1000
 execute unless score $peace var matches 0.. run scoreboard players set $peace var 0
 
-schedule function #game:events/server_config 2t
-data modify block 0 -1 0 Command set value "/schedule clear #game:events/server_config"
-data modify block 0 -1 0 auto set value 1
+schedule function #game:events/config_check 5t
