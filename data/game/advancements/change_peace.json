@@ -5,12 +5,7 @@
       "conditions": {
         "entity": {
           "type": "minecraft:interaction",
-          "nbt": "{Tags:[\"peace\",\"increment\"]}",
-          "distance": {
-            "absolute": {
-              "max": 6
-            }
-          }
+          "nbt": "{Tags:[\"peace\",\"increment\"]}"
         }
       }
     },
@@ -19,12 +14,7 @@
       "conditions": {
         "entity": {
           "type": "minecraft:interaction",
-          "nbt": "{Tags:[\"peace\",\"decrement\"]}",
-          "distance": {
-            "absolute": {
-              "max": 6
-            }
-          }
+          "nbt": "{Tags:[\"peace\",\"decrement\"]}"
         }
       }
     }

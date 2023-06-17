@@ -5,12 +5,7 @@
       "conditions": {
         "entity": {
           "type": "minecraft:interaction",
-          "nbt": "{Tags:[\"points\",\"increment\"]}",
-          "distance": {
-            "absolute": {
-              "max": 6
-            }
-          }
+          "nbt": "{Tags:[\"points\",\"increment\"]}"
         }
       }
     },
@@ -19,12 +14,7 @@
       "conditions": {
         "entity": {
           "type": "minecraft:interaction",
-          "nbt": "{Tags:[\"points\",\"decrement\"]}",
-          "distance": {
-            "absolute": {
-              "max": 6
-            }
-          }
+          "nbt": "{Tags:[\"points\",\"decrement\"]}"
         }
       }
     }
