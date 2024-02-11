@@ -1,9 +1,7 @@
-execute if score $gametime var >= $peace var run function game:managers/hazards/lookup/random
-execute if score $gametime var >= $peace var run data modify block 0 -1 0 Command set from storage game:core hazards[0].function
-execute if score $gametime var >= $peace var run data modify block 0 -1 0 auto set value 1
+execute if score $gametime var >= $peace var run function game:managers/hazards/randomize/shuffle with storage game:core
+execute if score $gametime var >= $peace var run function #game:events/run_hazard with storage game:core hazards[0]
 
-scoreboard players set #random var 5
-execute store result score #random var run loot spawn ~ ~ ~ loot game:random
+execute store result score #random var run random value 1..5
 execute if score #random var matches 1 if score $status var matches 2 run schedule function #game:events/random_hazard 20s
 execute if score #random var matches 2 if score $status var matches 2 run schedule function #game:events/random_hazard 25s
 execute if score #random var matches 3 if score $status var matches 2 run schedule function #game:events/random_hazard 30s

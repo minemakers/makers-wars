@@ -8,5 +8,3 @@ execute unless score $chests var matches 0.. run scoreboard players set $chests 
 execute unless score $status var matches 0.. run scoreboard players set $status var 0
 execute unless score $points var matches 0.. run scoreboard players set $points var 1000
 execute unless score $peace var matches 0.. run scoreboard players set $peace var 0
-
-schedule function #game:events/config_check 5t

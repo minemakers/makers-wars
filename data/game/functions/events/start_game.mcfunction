@@ -25,7 +25,7 @@ scoreboard players set @a[gamemode=survival] damageTaken 0
 
 scoreboard objectives setdisplay list health
 
-execute if score $mode var matches 1 run function game:managers/hazards/lookup/weights
+execute if score $mode var matches 1 run function game:managers/hazards/weights/compute
 execute if score $mode var matches 1 run schedule function #game:events/random_hazard 20s
 execute if score $peace var matches 1.. run function #game:events/init_peace
 
