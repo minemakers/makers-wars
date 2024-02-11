@@ -1,8 +1,8 @@
 clear @s
 effect clear @s
-effect give @s minecraft:weakness infinite 200 true
-effect give @s minecraft:resistance infinite 200 true
-effect give @s minecraft:saturation infinite 200 true
+effect give @s minecraft:weakness infinite 127 true
+effect give @s minecraft:resistance infinite 127 true
+effect give @s minecraft:saturation infinite 127 true
 
 loot replace entity @s armor.feet 4 loot game:armor
 execute at @s run playsound minecraft:entity.villager.no master @s
