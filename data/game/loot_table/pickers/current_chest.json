@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/classic",
+          "value": "game:pickers/chests/classic",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -24,7 +24,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/high",
+          "value": "game:pickers/chests/high",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -42,7 +42,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/extreme",
+          "value": "game:pickers/chests/extreme",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -60,7 +60,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/hardcore",
+          "value": "game:pickers/chests/hardcore",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -78,7 +78,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/build",
+          "value": "game:pickers/chests/build",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -96,7 +96,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/redstone",
+          "value": "game:pickers/chests/redstone",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -114,7 +114,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/combat",
+          "value": "game:pickers/chests/combat",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -132,7 +132,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/survivor",
+          "value": "game:pickers/chests/survivor",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -150,7 +150,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/random",
+          "value": "game:pickers/chests/random",
           "conditions": [
             {
               "condition": "minecraft:value_check",

@@ -27,8 +27,19 @@
           "name": "minecraft:tipped_arrow",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:15,Amplifier:1b,Duration:240}],CustomPotionColor:791682}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 791682,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 1,
+                      "duration": 240
+                    }
+                  ]
+                }
+              }
             },
             {
               "function": "minecraft:set_count",
@@ -46,8 +57,34 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:1,Amplifier:0b,Duration:1200},{Id:14,Amplifier:0b,Duration:1200},{Id:22,Amplifier:0b,Duration:200},{Id:28,Amplifier:0b,Duration:160}],CustomPotionColor:4546303}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 4546303,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 0,
+                      "duration": 1200
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": 0,
+                      "duration": 1200
+                    },
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 0,
+                      "duration": 200
+                    },
+                    {
+                      "id": "minecraft:slow_falling",
+                      "amplifier": 0,
+                      "duration": 160
+                    }
+                  ]
+                }
+              }
             }
           ]
         }
@@ -61,8 +98,34 @@
           "name": "minecraft:splash_potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:1,Amplifier:3b,Duration:60},{Id:14,Amplifier:0b,Duration:200},{Id:8,Amplifier:3b,Duration:60},{Id:28,Amplifier:0b,Duration:120}],CustomPotionColor:1358489}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 1358489,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 3,
+                      "duration": 60
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": 0,
+                      "duration": 200
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": 3,
+                      "duration": 60
+                    },
+                    {
+                      "id": "minecraft:slow_falling",
+                      "amplifier": 0,
+                      "duration": 120
+                    }
+                  ]
+                }
+              }
             }
           ]
         }

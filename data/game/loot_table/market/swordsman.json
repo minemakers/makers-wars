@@ -54,8 +54,29 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:5,Amplifier:0b,Duration:600},{Id:22,Amplifier:0b,Duration:600},{Id:17,Amplifier:1b,Duration:200}],CustomPotionColor:11733257}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 11733257,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 0,
+                      "duration": 600
+                    },
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 0,
+                      "duration": 600
+                    },
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": 1,
+                      "duration": 200
+                    }
+                  ]
+                }
+              }
             }
           ]
         }

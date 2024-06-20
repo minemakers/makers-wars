@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/plains",
+          "value": "game:pickers/arena/plains",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -24,7 +24,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/ruins",
+          "value": "game:pickers/arena/ruins",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -42,7 +42,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/desert",
+          "value": "game:pickers/arena/desert",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -60,7 +60,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/inferno",
+          "value": "game:pickers/arena/inferno",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -78,7 +78,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/end",
+          "value": "game:pickers/arena/end",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -96,7 +96,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/canyon",
+          "value": "game:pickers/arena/canyon",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -114,7 +114,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/winter",
+          "value": "game:pickers/arena/winter",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -132,7 +132,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/outpost",
+          "value": "game:pickers/arena/outpost",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -150,7 +150,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/village",
+          "value": "game:pickers/arena/village",
           "conditions": [
             {
               "condition": "minecraft:value_check",

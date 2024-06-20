@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/plains"
+          "value": "game:pickers/arena/plains"
         }
       ]
     },
@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/ruins"
+          "value": "game:pickers/arena/ruins"
         }
       ]
     },
@@ -24,7 +24,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/desert"
+          "value": "game:pickers/arena/desert"
         }
       ]
     },
@@ -33,7 +33,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/inferno"
+          "value": "game:pickers/arena/inferno"
         }
       ]
     },
@@ -42,7 +42,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/end"
+          "value": "game:pickers/arena/end"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/canyon"
+          "value": "game:pickers/arena/canyon"
         }
       ]
     },
@@ -60,7 +60,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/winter"
+          "value": "game:pickers/arena/winter"
         }
       ]
     },
@@ -69,7 +69,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/outpost"
+          "value": "game:pickers/arena/outpost"
         }
       ]
     },
@@ -78,7 +78,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/arena/village"
+          "value": "game:pickers/arena/village"
         }
       ]
     }

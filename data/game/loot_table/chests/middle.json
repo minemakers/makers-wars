@@ -9,7 +9,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "game:chests/middle/classic",
+              "value": "game:chests/middle/classic",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -27,7 +27,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "game:chests/middle/high",
+              "value": "game:chests/middle/high",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -45,7 +45,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "game:chests/middle/extreme",
+              "value": "game:chests/middle/extreme",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -63,7 +63,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "game:chests/middle/hardcore",
+              "value": "game:chests/middle/hardcore",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -81,7 +81,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "game:chests/middle/build",
+              "value": "game:chests/middle/build",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -99,7 +99,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "game:chests/middle/redstone",
+              "value": "game:chests/middle/redstone",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -117,7 +117,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "game:chests/middle/combat",
+              "value": "game:chests/middle/combat",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -135,7 +135,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "game:chests/middle/survivor",
+              "value": "game:chests/middle/survivor",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",
@@ -153,7 +153,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "game:chests/middle/random",
+              "value": "game:chests/middle/random",
               "conditions": [
                 {
                   "condition": "minecraft:value_check",

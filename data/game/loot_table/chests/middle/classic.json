@@ -11,7 +11,6 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "treasure": true,
               "levels": {
                 "min": 6,
                 "max": 10
@@ -25,7 +24,6 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "treasure": true,
               "levels": {
                 "min": 8,
                 "max": 14
@@ -39,7 +37,6 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "treasure": true,
               "levels": {
                 "min": 8,
                 "max": 14
@@ -53,7 +50,6 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "treasure": true,
               "levels": {
                 "min": 12,
                 "max": 18
@@ -74,8 +70,7 @@
           "name": "minecraft:iron_helmet",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "treasure": true,
+              "function": "minecraft:enchant_with_levels",
               "levels": {
                 "min": 4,
                 "max": 12
@@ -89,7 +84,6 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "treasure": true,
               "levels": {
                 "min": 4,
                 "max": 12
@@ -103,7 +97,6 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "treasure": true,
               "levels": {
                 "min": 4,
                 "max": 12
@@ -117,7 +110,6 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "treasure": true,
               "levels": {
                 "min": 4,
                 "max": 12
@@ -192,7 +184,6 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "treasure": true,
               "levels": {
                 "min": 26,
                 "max": 30
@@ -251,7 +242,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/plank",
+          "value": "game:chests/groups/plank",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -264,7 +255,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/stone",
+          "value": "game:chests/groups/stone",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -333,7 +324,6 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "treasure": true,
               "levels": {
                 "min": 12,
                 "max": 16
@@ -400,7 +390,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/firework",
+          "value": "game:chests/groups/firework",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -431,7 +421,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/food",
+          "value": "game:chests/groups/food",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/log",
+          "value": "game:chests/groups/log",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -83,7 +83,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/terracotta",
+          "value": "game:chests/groups/terracotta",
           "weight": 2,
           "functions": [
             {
@@ -97,7 +97,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/concrete",
+          "value": "game:chests/groups/concrete",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -110,7 +110,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/stone",
+          "value": "game:chests/groups/stone",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -156,7 +156,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/flower",
+          "value": "game:chests/groups/flower",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -169,7 +169,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/wool",
+          "value": "game:chests/groups/wool",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -182,7 +182,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/coral_block",
+          "value": "game:chests/groups/coral_block",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -254,7 +254,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/food",
+          "value": "game:chests/groups/food",
           "functions": [
             {
               "function": "minecraft:set_count",

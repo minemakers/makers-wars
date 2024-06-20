@@ -40,8 +40,10 @@
   ],
   "functions": [
     {
-      "function": "minecraft:set_nbt",
-      "tag": "{display:{color:0}}",
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 0
+      },
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -53,8 +55,10 @@
       ]
     },
     {
-      "function": "minecraft:set_nbt",
-      "tag": "{display:{color:5006011}}",
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 5006011
+      },
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -66,8 +70,10 @@
       ]
     },
     {
-      "function": "minecraft:set_nbt",
-      "tag": "{display:{color:10855845}}",
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 10855845
+      },
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -79,8 +85,10 @@
       ]
     },
     {
-      "function": "minecraft:set_nbt",
-      "tag": "{display:{color:6717235}}",
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 6717235
+      },
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -92,8 +100,10 @@
       ]
     },
     {
-      "function": "minecraft:set_nbt",
-      "tag": "{display:{color:14188339}}",
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 14188339
+      },
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -105,8 +115,10 @@
       ]
     },
     {
-      "function": "minecraft:set_nbt",
-      "tag": "{display:{color:10040115}}",
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 10040115
+      },
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -118,8 +130,10 @@
       ]
     },
     {
-      "function": "minecraft:set_nbt",
-      "tag": "{display:{color:16777215}}",
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 16777215
+      },
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -131,8 +145,10 @@
       ]
     },
     {
-      "function": "minecraft:set_nbt",
-      "tag": "{display:{color:15066419}}",
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 15066419
+      },
       "conditions": [
         {
           "condition": "minecraft:entity_properties",

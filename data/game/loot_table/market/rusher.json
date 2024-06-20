@@ -33,8 +33,26 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:1,Amplifier:2,Duration:1000,ShowParticles:false},{Id:8,Amplifier:2,Duration:1000,ShowParticles:false}],CustomPotionColor:1751787}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 1751787,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 2,
+                      "duration": 1000,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": 2,
+                      "duration": 1000,
+                      "show_particles": false
+                    }
+                  ]
+                }
+              }
             }
           ]
         }

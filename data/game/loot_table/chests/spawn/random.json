@@ -6,35 +6,35 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/spawn/build"
+          "value": "game:chests/spawn/build"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/spawn/classic"
+          "value": "game:chests/spawn/classic"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/spawn/combat"
+          "value": "game:chests/spawn/combat"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/spawn/extreme"
+          "value": "game:chests/spawn/extreme"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/spawn/hardcore"
+          "value": "game:chests/spawn/hardcore"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/spawn/high"
+          "value": "game:chests/spawn/high"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/spawn/redstone"
+          "value": "game:chests/spawn/redstone"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/spawn/survivor"
+          "value": "game:chests/spawn/survivor"
         }
       ]
     }

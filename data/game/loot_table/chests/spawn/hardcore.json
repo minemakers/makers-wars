@@ -45,7 +45,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/plank",
+          "value": "game:chests/groups/plank",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -58,7 +58,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/log",
+          "value": "game:chests/groups/log",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -76,7 +76,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/stone",
+          "value": "game:chests/groups/stone",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -94,7 +94,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/food",
+          "value": "game:chests/groups/food",
           "functions": [
             {
               "function": "minecraft:set_count",

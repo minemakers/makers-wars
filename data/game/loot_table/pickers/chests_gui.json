@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/classic"
+          "value": "game:pickers/chests/classic"
         }
       ]
     },
@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/high"
+          "value": "game:pickers/chests/high"
         }
       ]
     },
@@ -24,7 +24,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/extreme"
+          "value": "game:pickers/chests/extreme"
         }
       ]
     },
@@ -33,7 +33,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/hardcore"
+          "value": "game:pickers/chests/hardcore"
         }
       ]
     },
@@ -42,7 +42,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/build"
+          "value": "game:pickers/chests/build"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/redstone"
+          "value": "game:pickers/chests/redstone"
         }
       ]
     },
@@ -60,7 +60,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/combat"
+          "value": "game:pickers/chests/combat"
         }
       ]
     },
@@ -69,7 +69,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/survivor"
+          "value": "game:pickers/chests/survivor"
         }
       ]
     },
@@ -78,7 +78,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:pickers/chests/random"
+          "value": "game:pickers/chests/random"
         }
       ]
     }

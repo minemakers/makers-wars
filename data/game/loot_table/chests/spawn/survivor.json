@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/sapling",
+          "value": "game:chests/groups/sapling",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -202,7 +202,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/food",
+          "value": "game:chests/groups/food",
           "functions": [
             {
               "function": "minecraft:set_count",

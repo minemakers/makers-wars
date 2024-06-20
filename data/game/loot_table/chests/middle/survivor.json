@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/sapling",
+          "value": "game:chests/groups/sapling",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -108,7 +108,6 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "treasure": true,
               "levels": 6
             }
           ]
@@ -119,7 +118,6 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "treasure": true,
               "levels": 6
             }
           ]
@@ -130,7 +128,6 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "treasure": true,
               "levels": 6
             }
           ]
@@ -142,7 +139,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/stone",
+          "value": "game:chests/groups/stone",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -178,7 +175,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "game:chests/groups/food",
+          "value": "game:chests/groups/food",
           "functions": [
             {
               "function": "minecraft:set_count",

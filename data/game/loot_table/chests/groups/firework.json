@@ -9,8 +9,33 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{HideFlags:34,Fireworks:{Flight:0b,Explosions:[{Type:4,Trail:1b,Colors:[I;37903],FadeColors:[I;3664675]}]}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:stored_enchantments": {
+                  "levels": {},
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:fireworks": {
+                  "explosions": [
+                    {
+                      "shape": "burst",
+                      "colors": [
+                        37903
+                      ],
+                      "fade_colors": [
+                        3664675
+                      ],
+                      "has_trail": true
+                    }
+                  ],
+                  "flight_duration": 0
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -28,8 +53,42 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{HideFlags:34,Fireworks:{Flight:1b,Explosions:[{Type:2,Colors:[I;213642],FadeColors:[I;2799851]},{Type:4,Trail:1b,Colors:[I;19967],FadeColors:[I;65501]}]}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:stored_enchantments": {
+                  "levels": {},
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:fireworks": {
+                  "explosions": [
+                    {
+                      "shape": "star",
+                      "colors": [
+                        213642
+                      ],
+                      "fade_colors": [
+                        2799851
+                      ]
+                    },
+                    {
+                      "shape": "burst",
+                      "colors": [
+                        19967
+                      ],
+                      "fade_colors": [
+                        65501
+                      ],
+                      "has_trail": true
+                    }
+                  ],
+                  "flight_duration": 1
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -47,8 +106,49 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{HideFlags:34,Fireworks:{Flight:2b,Explosions:[{Type:2,Colors:[I;9043968],FadeColors:[I;15401474]},{Type:4,Trail:1b,Colors:[I;13379840],FadeColors:[I;16750640]},{Type:1,Colors:[I;9706267]}]}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [],
+                  "show_in_tooltip": false
+                },
+                "minecraft:stored_enchantments": {
+                  "levels": {},
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:fireworks": {
+                  "explosions": [
+                    {
+                      "shape": "star",
+                      "colors": [
+                        9043968
+                      ],
+                      "fade_colors": [
+                        15401474
+                      ]
+                    },
+                    {
+                      "shape": "burst",
+                      "colors": [
+                        13379840
+                      ],
+                      "fade_colors": [
+                        16750640
+                      ],
+                      "has_trail": true
+                    },
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        9706267
+                      ],
+                      "fade_colors": []
+                    }
+                  ],
+                  "flight_duration": 2
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
