@@ -1,17 +1,17 @@
 {
   "pack": {
-    "pack_format": 26,
+    "pack_format": 48,
     "description": "Makers Wars II - by MineMakers Team"
   },
   "filter": {
     "block": [
       {
         "namespace": "minecraft",
-        "path": "advancements/.*"
+        "path": "advancement/.*"
       },
       {
         "namespace": "minecraft",
-        "path": "recipes/ender_chest"
+        "path": "recipe/ender_chest"
       }
     ]
   }
