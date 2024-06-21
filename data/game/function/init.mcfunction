@@ -60,9 +60,9 @@ scoreboard objectives add lives dummy
 scoreboard objectives add points dummy
 scoreboard objectives add minions dummy
 scoreboard objectives add health health
-scoreboard objectives add killCount playerKillCount
-scoreboard objectives add damageDealt minecraft.custom:minecraft.damage_dealt
-scoreboard objectives add damageTaken minecraft.custom:minecraft.damage_taken
+scoreboard objectives add kill_count playerKillCount
+scoreboard objectives add damage_dealt minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add damage_taken minecraft.custom:minecraft.damage_taken
 scoreboard objectives add connect minecraft.custom:minecraft.leave_game
 
 scoreboard players set #-1 const -1

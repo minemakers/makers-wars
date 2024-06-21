@@ -1,4 +1,7 @@
-execute store result score #cost var run data get entity @s EnderItems[0].tag.cost 1
+function #game:events/market_reset
+
+$data modify storage game:core _ set from storage game:core doppelgangers[{uuid:$(UUID)}]
+execute store result score #cost var run data get storage game:core _.cost
 
 scoreboard players set #error var 0
 execute if score #cost var > @s points run scoreboard players set #error var 1

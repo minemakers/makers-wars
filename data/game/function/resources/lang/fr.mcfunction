@@ -81,9 +81,9 @@ data modify storage game:lang win.yellow set value {title: "L'Équipe Jaune", su
 
 data modify storage game:lang stats.legend set value "Résumé de Jeu"
 data modify storage game:lang stats.duration set value ["Le jeu a duré ", " minute(s)"]
-data modify storage game:lang stats.killCount set value ["Vous avez tué ", " joueur(s)"]
-data modify storage game:lang stats.damageDealt set value ["Vous avez infligé ", " dégâts de mêlée"]
-data modify storage game:lang stats.damageTaken set value ["Vous avez subi ", " dégâts"]
+data modify storage game:lang stats.kill_count set value ["Vous avez tué ", " joueur(s)"]
+data modify storage game:lang stats.damage_dealt set value ["Vous avez infligé ", " dégâts de mêlée"]
+data modify storage game:lang stats.damage_taken set value ["Vous avez subi ", " dégâts"]
 data modify storage game:lang stats.minions set value ["Vous avez invoqué ", " minion(s)"]
 
 data modify storage game:lang chests.name set value "━ Coffres ━"

@@ -5,9 +5,9 @@ scoreboard players reset $gametime var
 scoreboard players reset * status
 scoreboard players reset * confirm
 scoreboard players reset * minions
-scoreboard players reset * killCount
-scoreboard players reset * damageDealt
-scoreboard players reset * damageTaken
+scoreboard players reset * kill_count
+scoreboard players reset * damage_dealt
+scoreboard players reset * damage_taken
 
 scoreboard objectives setdisplay list
 bossbar set game:timer players

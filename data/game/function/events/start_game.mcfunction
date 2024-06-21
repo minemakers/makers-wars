@@ -19,9 +19,9 @@ execute as @a[gamemode=survival] run function game:managers/players/spawn/game
 scoreboard players reset * confirm
 scoreboard players set @a[gamemode=survival] status 2
 scoreboard players set @a[gamemode=survival] minions 0
-scoreboard players set @a[gamemode=survival] killCount 0
-scoreboard players set @a[gamemode=survival] damageDealt 0
-scoreboard players set @a[gamemode=survival] damageTaken 0
+scoreboard players set @a[gamemode=survival] kill_count 0
+scoreboard players set @a[gamemode=survival] damage_dealt 0
+scoreboard players set @a[gamemode=survival] damage_taken 0
 
 scoreboard objectives setdisplay list health
 

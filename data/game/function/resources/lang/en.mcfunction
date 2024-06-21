@@ -81,9 +81,9 @@ data modify storage game:lang win.yellow set value {title: "The Yellow Team", su
 
 data modify storage game:lang stats.legend set value "Game Summary"
 data modify storage game:lang stats.duration set value ["The game lasted ", " minute(s)"]
-data modify storage game:lang stats.killCount set value ["You killed ", " player(s)"]
-data modify storage game:lang stats.damageDealt set value ["You dealt ", " melee damage"]
-data modify storage game:lang stats.damageTaken set value ["You took ", " damage"]
+data modify storage game:lang stats.kill_count set value ["You killed ", " player(s)"]
+data modify storage game:lang stats.damage_dealt set value ["You dealt ", " melee damage"]
+data modify storage game:lang stats.damage_taken set value ["You took ", " damage"]
 data modify storage game:lang stats.minions set value ["You summoned ", " minion(s)"]
 
 data modify storage game:lang chests.name set value "━ Chests ━"
