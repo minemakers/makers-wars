@@ -77,6 +77,23 @@
                   ]
                 }
               }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": [
+                {
+                  "nbt": "market.swordsman",
+                  "storage": "game:lang"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "item.minecraft.potion"
+                }
+              ]
             }
           ]
         }

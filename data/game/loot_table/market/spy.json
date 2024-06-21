@@ -42,6 +42,14 @@
               }
             },
             {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": {
+                "translate": "item.minecraft.tipped_arrow"
+              }
+            },
+            {
               "function": "minecraft:set_count",
               "count": 8
             }
@@ -85,6 +93,23 @@
                   ]
                 }
               }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": [
+                {
+                  "nbt": "market.spy",
+                  "storage": "game:lang"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "item.minecraft.potion"
+                }
+              ]
             }
           ]
         }
@@ -126,6 +151,23 @@
                   ]
                 }
               }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": [
+                {
+                  "nbt": "market.spy",
+                  "storage": "game:lang"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "item.minecraft.splash_potion"
+                }
+              ]
             }
           ]
         }
