@@ -30,9 +30,14 @@ jobs:
         run: |
           mv world "Makers Wars II"
           zip -r9 makers-wars.zip "Makers Wars II"
+          rm -f "Makers Wars II/datapacks/makers-wars.zip"
+          cp -r build/makers-wars "Makers Wars II/datapacks/makers-wars"
+          zip -r9 makers-wars-realms.zip "Makers Wars II"
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.event.inputs.tag }}
           name: Makers Wars II - ${{ github.event.inputs.tag }}
-          files: makers-wars.zip
+          files: |
+            makers-wars.zip
+            makers-wars-realms.zip
