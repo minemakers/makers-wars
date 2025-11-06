@@ -23,7 +23,9 @@ jobs:
       - name: Create datapack archive
         run: |
           mkdir -p world/datapacks
-          zip -r9 ./world/datapacks/makers-wars.zip ./build/makers-wars/*
+          cd build/makers-wars
+          zip -r9 ../../world/datapacks/makers-wars.zip ./*
+          cd ../..
       - name: Create world archive
         run: |
           mv world "Makers Wars II"
