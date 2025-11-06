@@ -6,12 +6,8 @@
     "xxx"
   ],
   "key": {
-    "o": {
-      "tag": "game:spawn_egg"
-    },
-    "x": {
-      "item": "minecraft:echo_shard"
-    }
+    "o": "#game:spawn_egg",
+    "x": "minecraft:echo_shard"
   },
   "result": {
     "id": "minecraft:warden_spawn_egg",

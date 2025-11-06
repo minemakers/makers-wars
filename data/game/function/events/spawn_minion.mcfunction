@@ -1,8 +1,8 @@
 scoreboard players add @s minions 1
 
 tag @e[type=#game:minion,team=,tag=!initialized,sort=nearest,limit=1] add minion
-attribute @e[type=#game:minion,team=,tag=!initialized,sort=nearest,limit=1] generic.follow_range base set 50
-data merge entity @e[type=#game:minion,team=,tag=!initialized,sort=nearest,limit=1] {CanPickUpLoot:1b,PersistenceRequired:1b,ArmorDropChances:[1f,1f,1f,0f],ArmorItems:[{},{},{},{id:"minecraft:stone_button",count:1b}]}
+attribute @e[type=#game:minion,team=,tag=!initialized,sort=nearest,limit=1] minecraft:follow_range base set 50
+data merge entity @e[type=#game:minion,team=,tag=!initialized,sort=nearest,limit=1] {CanPickUpLoot:1b,PersistenceRequired:1b,drop_chances:{head:0f},equipment:{head:{id:"minecraft:stone_button",count:1b}}}
 execute unless score $gametime var >= $peace var as @e[type=#game:minion,team=,tag=!initialized,sort=nearest,limit=1] run data merge entity @s {NoAI:1b}
 
 execute if entity @s[team=black] run team join black @e[type=#game:minion,team=,tag=!initialized,sort=nearest,limit=1]

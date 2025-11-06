@@ -1,2 +1,1 @@
-data remove block 0 0 0 Items[0].components."minecraft:custom_data"
-loot give @s mine 0 0 0 minecraft:anvil[custom_data={drop_contents:1b}]
+$loot give @s loot {pools:[{rolls:1,entries:[{type:"item",name:"$(id)",functions:[{function:"minecraft:set_count",count:$(count)},{function:"minecraft:set_components",components:$(components)}]}]}]}

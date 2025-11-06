@@ -1,5 +1,6 @@
-data modify storage game:core _ set value {items:[],cost:0}
-data modify storage game:core _.items set from entity @s Inventory
+data modify storage game:core _ set value {equipment:{},inventory:[],cost:0}
+data modify storage game:core _.equipment set from entity @s equipment
+data modify storage game:core _.inventory set from entity @s Inventory
 
 execute if entity @s[team=black] run scoreboard players operation #cost var = $black points
 execute if entity @s[team=blue] run scoreboard players operation #cost var = $blue points

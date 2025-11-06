@@ -1,53 +1,54 @@
-data modify storage game:core _.items set from entity @s Inventory
-
-data remove storage game:core _.items[{Slot:100b}]
-data remove storage game:core _.items[{Slot:101b}]
-data remove storage game:core _.items[{Slot:102b}]
-data remove storage game:core _.items[{Slot:103b}]
-
-execute if data storage game:core _.items[0] run data modify storage game:core _.items[0] merge from storage game:core _.mask[0]
-execute if data storage game:core _.items[1] run data modify storage game:core _.items[1] merge from storage game:core _.mask[1]
-execute if data storage game:core _.items[2] run data modify storage game:core _.items[2] merge from storage game:core _.mask[2]
-execute if data storage game:core _.items[3] run data modify storage game:core _.items[3] merge from storage game:core _.mask[3]
-execute if data storage game:core _.items[4] run data modify storage game:core _.items[4] merge from storage game:core _.mask[4]
-execute if data storage game:core _.items[5] run data modify storage game:core _.items[5] merge from storage game:core _.mask[5]
-execute if data storage game:core _.items[6] run data modify storage game:core _.items[6] merge from storage game:core _.mask[6]
-execute if data storage game:core _.items[7] run data modify storage game:core _.items[7] merge from storage game:core _.mask[7]
-execute if data storage game:core _.items[8] run data modify storage game:core _.items[8] merge from storage game:core _.mask[8]
-execute if data storage game:core _.items[9] run data modify storage game:core _.items[9] merge from storage game:core _.mask[9]
-execute if data storage game:core _.items[10] run data modify storage game:core _.items[10] merge from storage game:core _.mask[10]
-execute if data storage game:core _.items[11] run data modify storage game:core _.items[11] merge from storage game:core _.mask[11]
-execute if data storage game:core _.items[12] run data modify storage game:core _.items[12] merge from storage game:core _.mask[12]
-execute if data storage game:core _.items[13] run data modify storage game:core _.items[13] merge from storage game:core _.mask[13]
-execute if data storage game:core _.items[14] run data modify storage game:core _.items[14] merge from storage game:core _.mask[14]
-execute if data storage game:core _.items[15] run data modify storage game:core _.items[15] merge from storage game:core _.mask[15]
-execute if data storage game:core _.items[16] run data modify storage game:core _.items[16] merge from storage game:core _.mask[16]
-execute if data storage game:core _.items[17] run data modify storage game:core _.items[17] merge from storage game:core _.mask[17]
-execute if data storage game:core _.items[18] run data modify storage game:core _.items[18] merge from storage game:core _.mask[18]
-execute if data storage game:core _.items[19] run data modify storage game:core _.items[19] merge from storage game:core _.mask[19]
-execute if data storage game:core _.items[20] run data modify storage game:core _.items[20] merge from storage game:core _.mask[20]
-execute if data storage game:core _.items[21] run data modify storage game:core _.items[21] merge from storage game:core _.mask[21]
-execute if data storage game:core _.items[22] run data modify storage game:core _.items[22] merge from storage game:core _.mask[22]
-execute if data storage game:core _.items[23] run data modify storage game:core _.items[23] merge from storage game:core _.mask[23]
-execute if data storage game:core _.items[24] run data modify storage game:core _.items[24] merge from storage game:core _.mask[24]
-execute if data storage game:core _.items[25] run data modify storage game:core _.items[25] merge from storage game:core _.mask[25]
-execute if data storage game:core _.items[26] run data modify storage game:core _.items[26] merge from storage game:core _.mask[26]
-execute if data storage game:core _.items[27] run data modify storage game:core _.items[27] merge from storage game:core _.mask[27]
-execute if data storage game:core _.items[28] run data modify storage game:core _.items[28] merge from storage game:core _.mask[28]
-execute if data storage game:core _.items[29] run data modify storage game:core _.items[29] merge from storage game:core _.mask[29]
-execute if data storage game:core _.items[30] run data modify storage game:core _.items[30] merge from storage game:core _.mask[30]
-execute if data storage game:core _.items[31] run data modify storage game:core _.items[31] merge from storage game:core _.mask[31]
-execute if data storage game:core _.items[32] run data modify storage game:core _.items[32] merge from storage game:core _.mask[32]
-execute if data storage game:core _.items[33] run data modify storage game:core _.items[33] merge from storage game:core _.mask[33]
-execute if data storage game:core _.items[34] run data modify storage game:core _.items[34] merge from storage game:core _.mask[34]
-execute if data storage game:core _.items[35] run data modify storage game:core _.items[35] merge from storage game:core _.mask[35]
-execute if data storage game:core _.items[36] run data modify storage game:core _.items[36] merge from storage game:core _.mask[36]
-
-data modify block 0 0 0 Items set value []
-data modify block 0 0 0 Items append from storage game:core _.items[{hotbar:0b}]
-loot replace entity @s inventory.0 27 mine 0 0 0 minecraft:anvil[custom_data={drop_contents:1b}]
-
-data modify block 0 0 0 Items set value []
-data modify block 0 0 0 Items append from storage game:core _.items[{hotbar:1b}]
-loot replace entity @s hotbar.0 9 mine 0 0 0 minecraft:anvil[custom_data={drop_contents:1b}]
-item replace entity @s weapon.offhand from block 0 0 0 container.9
+$item replace block 0 2 0 contents from entity @s $(0)
+$item replace entity @s $(0) from entity @s $(1)
+$item replace entity @s $(1) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(2)
+$item replace entity @s $(2) from entity @s $(3)
+$item replace entity @s $(3) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(4)
+$item replace entity @s $(4) from entity @s $(5)
+$item replace entity @s $(5) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(6)
+$item replace entity @s $(6) from entity @s $(7)
+$item replace entity @s $(7) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(8)
+$item replace entity @s $(8) from entity @s $(9)
+$item replace entity @s $(9) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(10)
+$item replace entity @s $(10) from entity @s $(11)
+$item replace entity @s $(11) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(12)
+$item replace entity @s $(12) from entity @s $(13)
+$item replace entity @s $(13) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(14)
+$item replace entity @s $(14) from entity @s $(15)
+$item replace entity @s $(15) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(16)
+$item replace entity @s $(16) from entity @s $(17)
+$item replace entity @s $(17) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(18)
+$item replace entity @s $(18) from entity @s $(19)
+$item replace entity @s $(19) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(20)
+$item replace entity @s $(20) from entity @s $(21)
+$item replace entity @s $(21) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(22)
+$item replace entity @s $(22) from entity @s $(23)
+$item replace entity @s $(23) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(24)
+$item replace entity @s $(24) from entity @s $(25)
+$item replace entity @s $(25) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(26)
+$item replace entity @s $(26) from entity @s $(27)
+$item replace entity @s $(27) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(28)
+$item replace entity @s $(28) from entity @s $(29)
+$item replace entity @s $(29) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(30)
+$item replace entity @s $(30) from entity @s $(31)
+$item replace entity @s $(31) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(32)
+$item replace entity @s $(32) from entity @s $(33)
+$item replace entity @s $(33) from block 0 2 0 contents
+$item replace block 0 2 0 contents from entity @s $(34)
+$item replace entity @s $(34) from entity @s $(35)
+$item replace entity @s $(35) from block 0 2 0 contents

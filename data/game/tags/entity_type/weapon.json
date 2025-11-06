@@ -1,7 +1,8 @@
 {
   "values": [
     "#minecraft:arrows",
-    "minecraft:potion",
+    "minecraft:lingering_potion",
+    "minecraft:splash_potion",
     "minecraft:trident"
   ]
 }

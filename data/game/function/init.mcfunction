@@ -1,8 +1,3 @@
-#define storage game:core
-#define storage game:lang
-#define bossbar game:peace
-#define bossbar game:timer
-
 team add ghost
 team add black
 team add blue
@@ -70,6 +65,7 @@ scoreboard players set #20 const 20
 scoreboard players set #60 const 60
 scoreboard players set #100 const 100
 
+gamerule allowEnteringNetherUsingPortals false
 gamerule announceAdvancements false
 gamerule commandBlockOutput false
 gamerule disableRaids true
@@ -97,5 +93,7 @@ gamerule showDeathMessages true
 gamerule spawnRadius 0
 gamerule spectatorsGenerateChunks false
 
+forceload add 0 0
+setblock 0 2 0 minecraft:decorated_pot
 setblock 0 1 0 minecraft:oak_sign
-setblock 0 0 0 minecraft:white_shulker_box
+setworldspawn 997 31 976

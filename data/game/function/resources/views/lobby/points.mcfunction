@@ -1,1 +1,1 @@
-data modify entity @e[type=minecraft:text_display,tag=lang.points,sort=nearest,limit=1] text set value '[{"storage":"game:lang","nbt":"points","color":"yellow","bold":true},{"text":": "},{"score":{"name":"$points","objective":"var"},"color":"#dddddd"},{"text":"⛁","color":"#dddddd"}]'
+data modify entity @e[type=minecraft:text_display,tag=lang.points,sort=nearest,limit=1] text set value [{"storage":"game:lang","nbt":"points","color":"yellow","bold":true},{"text":": "},{"score":{"name":"$points","objective":"var"},"color":"#dddddd"},{"text":"⛁","color":"#dddddd"}]

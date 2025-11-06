@@ -1,0 +1,36 @@
+name: Build and Release World
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag (e.g., v1.0.0)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+      - name: Run beet build
+        run: uvx beet build
+      - name: Create datapack archive
+        run: |
+          mkdir -p world/datapacks
+          zip -r9 ./world/datapacks/makers-wars.zip ./build/makers-wars/*
+      - name: Create world archive
+        run: |
+          mv world "Makers Wars II"
+          zip -r9 makers-wars.zip "Makers Wars II"
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.tag }}
+          name: Makers Wars II - ${{ github.event.inputs.tag }}
+          files: makers-wars.zip

@@ -5,7 +5,8 @@
     "minecraft:experience_bottle",
     "minecraft:firework_rocket",
     "minecraft:fishing_bobber",
-    "minecraft:potion",
+    "minecraft:lingering_potion",
+    "minecraft:splash_potion",
     "minecraft:trident"
   ]
 }

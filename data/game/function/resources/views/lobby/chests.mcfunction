@@ -1,7 +1,7 @@
 setblock ~ ~ ~ minecraft:air
 setblock ~ ~ ~ minecraft:dropper[facing=up]
 
-data modify block 0 1 0 front_text.messages[0] set value '{"nbt":"chests.name","storage":"game:lang","bold":true}'
+data modify block 0 1 0 front_text.messages[0] set value {"nbt":"chests.name","storage":"game:lang","bold":true}
 data modify block ~ ~ ~ CustomName set from block 0 1 0 front_text.messages[0]
 
 loot replace block ~ ~ ~ container.0 9 loot game:pickers/chests_gui

@@ -1,4 +1,3 @@
-spawnpoint @s 997 31 976
 execute if score $status var matches 0 run gamemode adventure @s
 execute if score $status var matches 1.. run gamemode spectator @s
 function game:managers/players/spawn/lobby

@@ -11,15 +11,13 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [],
-                  "show_in_tooltip": false
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "attribute_modifiers",
+                    "stored_enchantments",
+                    "fireworks"
+                  ]
                 },
-                "minecraft:stored_enchantments": {
-                  "levels": {},
-                  "show_in_tooltip": false
-                },
-                "minecraft:hide_additional_tooltip": {},
                 "minecraft:fireworks": {
                   "explosions": [
                     {
@@ -55,15 +53,13 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [],
-                  "show_in_tooltip": false
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "attribute_modifiers",
+                    "stored_enchantments",
+                    "fireworks"
+                  ]
                 },
-                "minecraft:stored_enchantments": {
-                  "levels": {},
-                  "show_in_tooltip": false
-                },
-                "minecraft:hide_additional_tooltip": {},
                 "minecraft:fireworks": {
                   "explosions": [
                     {
@@ -108,15 +104,13 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [],
-                  "show_in_tooltip": false
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "attribute_modifiers",
+                    "stored_enchantments",
+                    "fireworks"
+                  ]
                 },
-                "minecraft:stored_enchantments": {
-                  "levels": {},
-                  "show_in_tooltip": false
-                },
-                "minecraft:hide_additional_tooltip": {},
                 "minecraft:fireworks": {
                   "explosions": [
                     {
