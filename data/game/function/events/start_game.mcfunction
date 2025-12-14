@@ -9,7 +9,7 @@ fill 966 7 1024 962 11 1020 minecraft:air
 fill 1009 7 973 1013 11 977 minecraft:air
 fill 985 7 1043 981 11 1039 minecraft:air
 fill 1009 7 1043 1013 11 1039 minecraft:air
-gamerule doTileDrops true
+gamerule block_drops true
 
 gamemode survival @a[gamemode=adventure,team=!]
 effect clear @a[gamemode=survival]

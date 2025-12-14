@@ -32,7 +32,7 @@ schedule clear game:managers/hazards/processes/spawn_lightning
 schedule clear game:managers/hazards/processes/spawn_meteorite
 schedule clear game:managers/hazards/processes/swap_players
 
-gamerule doTileDrops false
+gamerule block_drops false
 execute positioned 997 96 1008 run function #game:events/clear_arena
 function #game:resources/scenes/lobby
 function #game:resources/scenes/arena
