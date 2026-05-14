@@ -1,6 +1,7 @@
 data modify storage game:core i18n set value []
 data modify storage game:core i18n append value {"name":"English","function":"#game:resources/lang/en"}
 data modify storage game:core i18n append value {"name":"French","function":"#game:resources/lang/fr"}
+data modify storage game:core i18n append value {"name":"繁體中文","function":"#game:resources/lang/zh_tw"}
 
 data modify storage game:core hazards set value []
 data modify storage game:core hazards append value {weight:9,function:"game:managers/hazards/angry_minions"}
