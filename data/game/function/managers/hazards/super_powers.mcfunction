@@ -1,4 +1,4 @@
-tellraw @a [{"storage":"game:lang","nbt":"hazard","color":"#AA59D6","bold":true},{"text":": "},{"storage":"game:lang","nbt":"hazards.super_powers","color":"gray","bold":false}]
+tellraw @a [{"storage":"game:lang","nbt":"hazard","color":"#AA59D6","bold":true,"interpret":true},{"text":": "},{"storage":"game:lang","nbt":"hazards.super_powers","color":"gray","bold":false,"interpret":true}]
 
 effect give @a[gamemode=!spectator] minecraft:speed 20 4
 effect give @a[gamemode=!spectator] minecraft:jump_boost 20 5

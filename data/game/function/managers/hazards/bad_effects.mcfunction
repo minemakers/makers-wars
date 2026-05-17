@@ -1,4 +1,4 @@
-tellraw @a [{"storage":"game:lang","nbt":"hazard","color":"#AA59D6","bold":true},{"text":": "},{"storage":"game:lang","nbt":"hazards.bad_effects","color":"gray","bold":false}]
+tellraw @a [{"storage":"game:lang","nbt":"hazard","color":"#AA59D6","bold":true,"interpret":true},{"text":": "},{"storage":"game:lang","nbt":"hazards.bad_effects","color":"gray","bold":false,"interpret":true}]
 
 effect give @a[gamemode=!spectator] minecraft:nausea 10 0 true
 effect give @a[gamemode=!spectator] minecraft:blindness 3 0 true

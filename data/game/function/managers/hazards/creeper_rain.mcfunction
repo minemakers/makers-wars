@@ -1,4 +1,4 @@
-tellraw @a [{"storage":"game:lang","nbt":"hazard","color":"#AA59D6","bold":true},{"text":": "},{"storage":"game:lang","nbt":"hazards.creeper_rain","color":"gray","bold":false}]
+tellraw @a [{"storage":"game:lang","nbt":"hazard","color":"#AA59D6","bold":true,"interpret":true},{"text":": "},{"storage":"game:lang","nbt":"hazards.creeper_rain","color":"gray","bold":false,"interpret":true}]
 
 playsound minecraft:weather.rain.above master @a 1000 100 1000 10000 0.1
 

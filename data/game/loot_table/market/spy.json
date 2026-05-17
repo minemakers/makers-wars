@@ -101,7 +101,8 @@
               "name": [
                 {
                   "nbt": "market.spy",
-                  "storage": "game:lang"
+                  "storage": "game:lang",
+                  "interpret": true
                 },
                 {
                   "text": " "
@@ -159,7 +160,8 @@
               "name": [
                 {
                   "nbt": "market.spy",
-                  "storage": "game:lang"
+                  "storage": "game:lang",
+                  "interpret": true
                 },
                 {
                   "text": " "

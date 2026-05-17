@@ -61,7 +61,8 @@
               "name": [
                 {
                   "nbt": "market.rusher",
-                  "storage": "game:lang"
+                  "storage": "game:lang",
+                  "interpret": true
                 },
                 {
                   "text": " "

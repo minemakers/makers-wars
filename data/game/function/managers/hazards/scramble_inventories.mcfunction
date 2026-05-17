@@ -1,4 +1,4 @@
-tellraw @a [{"storage":"game:lang","nbt":"hazard","color":"#AA59D6","bold":true},{"text":": "},{"storage":"game:lang","nbt":"hazards.scramble_inventories","color":"gray","bold":false}]
+tellraw @a [{"storage":"game:lang","nbt":"hazard","color":"#AA59D6","bold":true,"interpret":true},{"text":": "},{"storage":"game:lang","nbt":"hazards.scramble_inventories","color":"gray","bold":false,"interpret":true}]
 
 data modify storage game:core _ set value {slots:["weapon.offhand","hotbar.0","hotbar.1","hotbar.2","hotbar.3","hotbar.4","hotbar.5","hotbar.6","hotbar.7","hotbar.8","inventory.0","inventory.1","inventory.2","inventory.3","inventory.4","inventory.5","inventory.6","inventory.7","inventory.8","inventory.9","inventory.10","inventory.11","inventory.12","inventory.13","inventory.14","inventory.15","inventory.16","inventory.17","inventory.18","inventory.19","inventory.20","inventory.21","inventory.22","inventory.23","inventory.24","inventory.25","inventory.26"]}
 execute store result storage game:core _.0 int 1 run random value 0..36

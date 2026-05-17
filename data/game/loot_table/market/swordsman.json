@@ -85,7 +85,8 @@
               "name": [
                 {
                   "nbt": "market.swordsman",
-                  "storage": "game:lang"
+                  "storage": "game:lang",
+                  "interpret": true
                 },
                 {
                   "text": " "

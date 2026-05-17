@@ -1,4 +1,4 @@
-tellraw @a [{"storage":"game:lang","nbt":"hazard","color":"#AA59D6","bold":true},{"text":": "},{"storage":"game:lang","nbt":"hazards.spawn_meteorites","color":"gray","bold":false}]
+tellraw @a [{"storage":"game:lang","nbt":"hazard","color":"#AA59D6","bold":true,"interpret":true},{"text":": "},{"storage":"game:lang","nbt":"hazards.spawn_meteorites","color":"gray","bold":false,"interpret":true}]
 
 time set midnight
 
