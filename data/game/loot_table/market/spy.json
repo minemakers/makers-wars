@@ -44,9 +44,9 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
-              "target": "item_name",
               "name": {
-                "translate": "item.minecraft.tipped_arrow"
+                "translate": "item.minecraft.tipped_arrow",
+                "italic": false
               }
             },
             {
@@ -97,11 +97,11 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
-              "target": "item_name",
               "name": [
                 {
                   "nbt": "market.spy",
                   "storage": "game:lang",
+                  "italic": false,
                   "interpret": true
                 },
                 {
@@ -156,11 +156,11 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
-              "target": "item_name",
               "name": [
                 {
                   "nbt": "market.spy",
                   "storage": "game:lang",
+                  "italic": false,
                   "interpret": true
                 },
                 {

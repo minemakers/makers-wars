@@ -61,14 +61,14 @@ data modify storage game:lang team_picker.red set value "紅隊"
 data modify storage game:lang team_picker.white set value "白隊"
 data modify storage game:lang team_picker.yellow set value "黃隊"
 
-data modify storage game:lang join_team.black set value "你加入了黑隊!"
-data modify storage game:lang join_team.blue set value "你加入了藍隊!"
-data modify storage game:lang join_team.gray set value "你加入了灰隊!"
-data modify storage game:lang join_team.green set value "你加入了綠隊!"
-data modify storage game:lang join_team.orange set value "你加入了橘隊!"
-data modify storage game:lang join_team.red set value "你加入了紅隊!"
-data modify storage game:lang join_team.white set value "你加入了白隊!"
-data modify storage game:lang join_team.yellow set value "你加入了黃隊!"
+data modify storage game:lang join_team.black set value "你加入了黑隊！"
+data modify storage game:lang join_team.blue set value "你加入了藍隊！"
+data modify storage game:lang join_team.gray set value "你加入了灰隊！"
+data modify storage game:lang join_team.green set value "你加入了綠隊！"
+data modify storage game:lang join_team.orange set value "你加入了橘隊！"
+data modify storage game:lang join_team.red set value "你加入了紅隊！"
+data modify storage game:lang join_team.white set value "你加入了白隊！"
+data modify storage game:lang join_team.yellow set value "你加入了黃隊！"
 
 data modify storage game:lang win.black set value {title: "黑隊", subtitle: "贏了！"}
 data modify storage game:lang win.blue set value {title: "藍隊", subtitle: "贏了！"}
