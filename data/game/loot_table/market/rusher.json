@@ -57,12 +57,12 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
-              "target": "item_name",
               "name": [
                 {
                   "nbt": "market.rusher",
                   "storage": "game:lang",
-                  "interpret": true
+                  "interpret": true,
+                  "italic": false
                 },
                 {
                   "text": " "
