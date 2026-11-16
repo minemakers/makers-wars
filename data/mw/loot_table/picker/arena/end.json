@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "id": [
+                    907160796,
+                    1821854615,
+                    -1727336627,
+                    -176309982
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFhOGZjOGRlNjQxN2I0OGQ0OGM4MGI0NDNjZjUzMjZlM2Q5ZGE0ZGJlOWIyNWZjZDQ5NTQ5ZDk2MTY4ZmMwIn19fQ=="
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "nbt": "arena.end.name",
+                "storage": "mw:lang",
+                "color": "dark_purple",
+                "bold": true,
+                "italic": false,
+                "interpret": true
+              }
+            },
+            {
+              "type": "minecraft:set_lore",
+              "mode": "append",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "nbt": "arena.end.help",
+                    "storage": "mw:lang",
+                    "color": "dark_gray",
+                    "italic": false,
+                    "interpret": true
+                  }
+                ],
+                [
+                  {
+                    "text": ""
+                  }
+                ],
+                [
+                  {
+                    "text": "▶ ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "nbt": "arena.help",
+                    "storage": "mw:lang",
+                    "interpret": true
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

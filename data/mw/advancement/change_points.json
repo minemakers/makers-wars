@@ -1,0 +1,49 @@
+{
+  "criteria": {
+    "increment": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:interaction",
+            "minecraft:entity_tags": {
+              "all_of": [
+                "mw.points",
+                "mw.increment"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "decrement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:interaction",
+            "minecraft:entity_tags": {
+              "all_of": [
+                "mw.points",
+                "mw.decrement"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "increment",
+      "decrement"
+    ]
+  ],
+  "rewards": {
+    "function": "mw:event/change_points"
+  }
+}

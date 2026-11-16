@@ -1,0 +1,147 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet"
+        }
+      ]
+    }
+  ],
+  "modifier": [
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 0
+      },
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:team": "mw.black"
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 5006011
+      },
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:team": "mw.blue"
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 10855845
+      },
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:team": "mw.gray"
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 6717235
+      },
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:team": "mw.green"
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 14188339
+      },
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:team": "mw.orange"
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 10040115
+      },
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:team": "mw.red"
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 16777215
+      },
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:team": "mw.white"
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:dyed_color": 15066419
+      },
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:team": "mw.yellow"
+        }
+      }
+    }
+  ]
+}

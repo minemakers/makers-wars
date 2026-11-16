@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "_": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": "#mw:spawn_egg"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mw:event/spawn_minion"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:profile": {
+                  "id": [
+                    -1816826672,
+                    -1100004424,
+                    -1903775724,
+                    239984414
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFlNGJlM2ZjNzg1ZjZjN2NjNzc3YzkzN2Y1YWRlOGZlOGQ3MWY2ZGZhNDhkYTg4ODllOThhZjA3NTI1ZmVmZiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "nbt": "chests.combat.name",
+                "storage": "mw:lang",
+                "color": "#888888",
+                "bold": true,
+                "italic": false,
+                "interpret": true
+              }
+            },
+            {
+              "type": "minecraft:set_lore",
+              "mode": "append",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "nbt": "chests.combat.help",
+                    "storage": "mw:lang",
+                    "color": "dark_gray",
+                    "italic": false,
+                    "interpret": true
+                  }
+                ],
+                [
+                  {
+                    "text": ""
+                  }
+                ],
+                [
+                  {
+                    "text": "▶ ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "nbt": "chests.help",
+                    "storage": "mw:lang",
+                    "interpret": true
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

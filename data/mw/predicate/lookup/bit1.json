@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:type_specific/player": {
+      "looking_at": {
+        "minecraft:entity_tags": {
+          "all_of": [
+            "mw.bit1"
+          ]
+        }
+      }
+    }
+  }
+}

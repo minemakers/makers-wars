@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "_": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "mw.confirm": {
+                  "min": 1
+                }
+              }
+            },
+            {
+              "type": "minecraft:int_value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "$status"
+                },
+                "score": "mw.var"
+              },
+              "test": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mw:event/start_market"
+  }
+}

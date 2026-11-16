@@ -1,0 +1,7 @@
+title @a times 0 50 10
+title @a title [{"storage":"mw:core","nbt":"i18n[0].name","color":"blue","bold":true,"interpret":true}]
+
+execute if data storage mw:lang translator run title @a subtitle [{"storage":"mw:lang","nbt":"translator","color":"gray","interpret":true}]
+execute unless data storage mw:lang translator run title @a subtitle [{"text":""}]
+
+playsound minecraft:entity.experience_orb.pickup master @a ~ ~ ~ 1000 .7

@@ -1,0 +1,1 @@
+data modify entity @e[type=minecraft:text_display,tag=mw.lang.points,sort=nearest,limit=1] text set value [{"storage":"mw:lang","nbt":"points","color":"yellow","bold":true,"interpret":true},{"text":": "},{"score":{"name":"$points","objective":"mw.var"},"color":"#dddddd"},{"text":"⛁","color":"#dddddd"}]

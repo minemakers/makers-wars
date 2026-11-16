@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:all_of",
+  "definitions": [
+    {
+      "type": "minecraft:function",
+      "setup": "mw:resource/settings"
+    },
+    {
+      "type": "minecraft:function",
+      "setup": "mw:resource/config"
+    },
+    {
+      "type": "minecraft:function",
+      "setup": "mw:resource/lang/en"
+    },
+    {
+      "type": "minecraft:function",
+      "setup": "mw:event/stop_game"
+    },
+    {
+      "type": "minecraft:function",
+      "setup": "mw:event/start_market",
+      "teardown": "mw:event/stop_game"
+    }
+  ]
+}

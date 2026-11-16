@@ -1,0 +1,4 @@
+tellraw @a [{"storage":"mw:lang","nbt":"hazard","color":"#AA59D6","bold":true,"interpret":true},{"text":": "},{"storage":"mw:lang","nbt":"hazards.jump_boost","color":"gray","bold":false,"interpret":true}]
+
+effect give @a[gamemode=!spectator] minecraft:jump_boost 20 8
+playsound minecraft:entity.rabbit.hurt master @a 1000 100 1000 1000 0.1

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mw:chest/spawn/build"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mw:chest/spawn/classic"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mw:chest/spawn/combat"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mw:chest/spawn/extreme"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mw:chest/spawn/hardcore"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mw:chest/spawn/high"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mw:chest/spawn/redstone"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mw:chest/spawn/survivor"
+        }
+      ]
+    }
+  ]
+}

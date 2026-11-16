@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "_": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "blocks": [
+          "minecraft:nether_portal"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mw:event/enter_portal"
+  }
+}

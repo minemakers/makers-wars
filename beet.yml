@@ -1,7 +1,12 @@
 data_pack:
   load: "."
   name: makers-wars
-  min_format: 101
-  max_format: 101
+
+require:
+  - beet_pack
+
+meta:
+  forceload:
+    - "950 950 1050 1060"
 
 output: build

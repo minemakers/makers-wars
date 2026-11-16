@@ -1,0 +1,22 @@
+data modify storage mw:core i18n set value []
+data modify storage mw:core i18n append value {"name":"English","function":"mw:resource/lang/en"}
+data modify storage mw:core i18n append value {"name":"French","function":"mw:resource/lang/fr"}
+data modify storage mw:core i18n append value {"name":"繁體中文","function":"mw:resource/lang/zh_tw"}
+
+data modify storage mw:core hazards set value []
+data modify storage mw:core hazards append value {weight:9,function:"mw:system/hazard/angry_minions"}
+data modify storage mw:core hazards append value {weight:8,function:"mw:system/hazard/bad_effects"}
+data modify storage mw:core hazards append value {weight:7,function:"mw:system/hazard/creeper_rain"}
+data modify storage mw:core hazards append value {weight:7,function:"mw:system/hazard/cursed_area"}
+data modify storage mw:core hazards append value {weight:9,function:"mw:system/hazard/freeze_players"}
+data modify storage mw:core hazards append value {weight:7,function:"mw:system/hazard/jump_boost"}
+data modify storage mw:core hazards append value {weight:4,function:"mw:system/hazard/resurrect_players"}
+data modify storage mw:core hazards append value {weight:7,function:"mw:system/hazard/reverse_gravity"}
+data modify storage mw:core hazards append value {weight:6,function:"mw:system/hazard/scramble_inventories"}
+data modify storage mw:core hazards append value {weight:6,function:"mw:system/hazard/spawn_gifts"}
+data modify storage mw:core hazards append value {weight:9,function:"mw:system/hazard/spawn_meteorites"}
+data modify storage mw:core hazards append value {weight:3,function:"mw:system/hazard/spawn_wither"}
+data modify storage mw:core hazards append value {weight:7,function:"mw:system/hazard/spread_players"}
+data modify storage mw:core hazards append value {weight:9,function:"mw:system/hazard/suicidal_minions"}
+data modify storage mw:core hazards append value {weight:9,function:"mw:system/hazard/super_powers"}
+data modify storage mw:core hazards append value {weight:8,function:"mw:system/hazard/swap_players"}

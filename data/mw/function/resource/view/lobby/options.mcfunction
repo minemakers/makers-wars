@@ -1,0 +1,16 @@
+data modify block 0 1 0 front_text.messages[0] set value [{"storage":"mw:lang","nbt":"click_me","color":"#cccccc","interpret":true}]
+execute as @e[type=minecraft:armor_stand,tag=mw.lang.click_me] run data modify entity @s CustomName set from block 0 1 0 front_text.messages[0]
+
+execute as @e[type=minecraft:text_display,tag=mw.lang.click_me] run data modify entity @s text set value [{"storage":"mw:lang","nbt":"click_me","color":"#cccccc","interpret":true}]
+execute as @e[type=minecraft:text_display,tag=mw.lang.click_here] run data modify entity @s text set value [{"storage":"mw:lang","nbt":"click_here","color":"#cccccc","interpret":true}]
+execute as @e[type=minecraft:text_display,tag=mw.lang.lang_picker] run data modify entity @s text set value [{"storage":"mw:lang","nbt":"lang_picker","color":"blue","bold":true,"interpret":true}]
+execute as @e[type=minecraft:text_display,tag=mw.lang.game_launcher] run data modify entity @s text set value [{"storage":"mw:lang","nbt":"game_launcher","color":"#ec6d32","bold":true,"interpret":true}]
+
+execute as @e[type=minecraft:text_display,tag=mw.lang.black_team] run data modify entity @s text set value [{"storage":"mw:lang","nbt":"team_picker.black","color":"dark_gray","bold":true,"interpret":true}]
+execute as @e[type=minecraft:text_display,tag=mw.lang.blue_team] run data modify entity @s text set value [{"storage":"mw:lang","nbt":"team_picker.blue","color":"dark_aqua","bold":true,"interpret":true}]
+execute as @e[type=minecraft:text_display,tag=mw.lang.gray_team] run data modify entity @s text set value [{"storage":"mw:lang","nbt":"team_picker.gray","color":"#777777","bold":true,"interpret":true}]
+execute as @e[type=minecraft:text_display,tag=mw.lang.green_team] run data modify entity @s text set value [{"storage":"mw:lang","nbt":"team_picker.green","color":"green","bold":true,"interpret":true}]
+execute as @e[type=minecraft:text_display,tag=mw.lang.orange_team] run data modify entity @s text set value [{"storage":"mw:lang","nbt":"team_picker.orange","color":"gold","bold":true,"interpret":true}]
+execute as @e[type=minecraft:text_display,tag=mw.lang.red_team] run data modify entity @s text set value [{"storage":"mw:lang","nbt":"team_picker.red","color":"red","bold":true,"interpret":true}]
+execute as @e[type=minecraft:text_display,tag=mw.lang.white_team] run data modify entity @s text set value [{"storage":"mw:lang","nbt":"team_picker.white","color":"white","bold":true,"interpret":true}]
+execute as @e[type=minecraft:text_display,tag=mw.lang.yellow_team] run data modify entity @s text set value [{"storage":"mw:lang","nbt":"team_picker.yellow","color":"yellow","bold":true,"interpret":true}]

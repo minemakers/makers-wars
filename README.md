@@ -6,12 +6,12 @@ Who doesn’t like Skywars, it’s a great classic minecraft minigame. Here is a
 
 ## Configuration
 
-Language files can be found inside the ```function/resources/lang``` folder:
-- English ([en.mcfunction](https://github.com/minemakers/makers-wars/blob/master/data/game/function/resources/lang/en.mcfunction))
-- French ([fr.mcfunction](https://github.com/minemakers/makers-wars/blob/master/data/game/function/resources/lang/fr.mcfunction))
-- Traditional Chinese ([zh_tw.mcfunction](https://github.com/minemakers/makers-wars/blob/master/data/game/function/resources/lang/zh_tw.mcfunction))
+Language files can be found inside the ```function/resource/lang``` folder:
+- English ([en.mcfunction](https://github.com/minemakers/makers-wars/blob/master/data/mw/function/resource/lang/en.mcfunction))
+- French ([fr.mcfunction](https://github.com/minemakers/makers-wars/blob/master/data/mw/function/resource/lang/fr.mcfunction))
+- Traditional Chinese ([zh_tw.mcfunction](https://github.com/minemakers/makers-wars/blob/master/data/mw/function/resource/lang/zh_tw.mcfunction))
 
-The [config.mcfunction](https://github.com/minemakers/makers-wars/blob/master/data/game/function/resources/config.mcfunction) file located inside the ```function/resources``` folder let you edit:
+The [config.mcfunction](https://github.com/minemakers/makers-wars/blob/master/data/mw/function/resource/config.mcfunction) file located inside the ```function/resource``` folder let you edit:
 
 - The insane mode events
 
