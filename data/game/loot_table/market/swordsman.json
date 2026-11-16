@@ -81,11 +81,11 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
-              "target": "item_name",
               "name": [
                 {
                   "nbt": "market.swordsman",
                   "storage": "game:lang",
+                  "italic": false,
                   "interpret": true
                 },
                 {
